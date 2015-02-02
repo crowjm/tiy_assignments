@@ -1,0 +1,150 @@
+/***header***/
+
+header {
+	height: 50px;
+	width: 1280px;
+	line-height: 50px;
+	background-color: #fff;
+	position: fixed;
+}
+
+header > h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 40px;
+
+}
+
+.main {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.main > ul > li {
+	display: inline-block;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-right: 40px;
+}
+
+/***main photo***/
+
+.main-photo {
+	background-image: url(../IMG/main-photo.jpg);
+	width: 1280px;
+	height: 580px;
+	margin-bottom: 60px;
+}
+
+/***Our Company***/
+
+h2 {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+/***Staff photos and bios***/
+
+.all-staff {
+	display: block;
+	margin: 0 auto;
+}
+
+.staff {
+	float: left;
+	width: 200px;
+	margin-bottom: 110px;
+}
+
+.staff:nth-of-type(1) {
+	margin-left: 100px;
+}
+
+.staff:nth-of-type(2) {
+	margin-left: 240px;
+	margin-right: 240px;
+}
+
+.staff:nth-of-type(3) {
+	margin-right: 100px;
+}
+
+.staff-photo {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.han {
+	background-image: url(../IMG/han.jpg);
+}
+
+.chewy {
+	background-image: url(../IMG/chewbacca.jpg);
+}
+
+.darth {
+	background-image: url(../IMG/darth.jpg);
+}
+
+h3 {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+.staff-about {
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+
+/***map and directions***/
+
+.map, .address {
+	width: 640px;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.address {
+	background-color: #f2ede5;
+	padding-top: 180px;
+	padding-left: 130px;
+	box-sizing: border-box;
+}
+
+.address > h2 {
+	text-align: left;
+}
+
+.address > h3 {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+/***footer***/
+
+footer {
+	height: 130px;
+	width: 1280px;
+	box-sizing: border-box;
+}
+
+.footer-text {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 65px;
+}
