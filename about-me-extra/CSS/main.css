@@ -1,0 +1,123 @@
+/***base CSS, smaller screens***/
+
+/***header***/
+
+header {
+	background-color: #c57373;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.hello {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+
+/***nav bar***/
+
+nav {
+	width: 20%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: auto;
+	display: block;
+	padding-top: 9em;
+	padding-left: 1em;
+}
+
+nav > ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+nav > ul > li > a, .link > a {
+	color: #497b9d;
+}
+
+nav > ul > li > a:hover, .link > a:hover {
+	color: #555;
+}
+
+
+/***body***/
+
+body {
+	background-color: #f8f8fa;
+	color: #c57373;
+	font-family: 'Muli', sans-serif;
+}
+
+.main-text {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 0.03em;
+}
+
+.main-content, .backstory-content, .list-content {
+	padding-left: 21%;
+}
+
+.backstory-content, .design-content, .list-content {
+	padding-top: 0.03em;
+	padding-right: 1.5em;
+	padding-left: 28%;
+	margin: 0 auto;
+}
+
+.list-content > ul > li {
+	margin: 0;
+	padding: 0;
+}
+
+
+/***img***/
+
+img {
+	border-radius: 50%;
+	width: 40%;
+	display: block;
+	margin: 0 auto 1em auto;
+	padding-top: 1em;
+}
+
+
+/***CSS for medium sized devices, ≥768px***/
+@media (min-width: 768px) {
+
+	.main-text {
+		width: 55%;
+		margin-right: 2.5%; 
+		float: left;
+		padding: 0;
+	}
+
+	img {
+		float: left;
+		width: 20%;
+		margin: 0 2.5% 0 0;
+	}
+
+	.backstory-content, .design-content, .list-content {
+		padding-right: 23%;
+		max-width: 650px;
+	}
+	
+
+}
+
+
+/*** CSS for large size devices, ≥992px***/
+@media (min-width: 992px) {
+
+	.main-content {
+		max-width: 792px;
+		float: left;
+	}
+
+
+}
