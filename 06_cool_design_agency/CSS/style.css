@@ -6,6 +6,8 @@ header {
 	line-height: 50px;
 	background-color: #fff;
 	position: fixed;
+	z-index: 2;
+	top: 0;
 }
 
 header > h1 {
@@ -38,6 +40,10 @@ header > h1 {
 	width: 1280px;
 	height: 580px;
 	margin-bottom: 60px;
+}
+
+body {
+	overflow: auto;
 }
 
 /***Our Company***/
