@@ -99,7 +99,6 @@ section {
 
 /**article**/
 article {
-	height: 928px;
 	width: 620px;
 	display: inline-block;
 	margin-left: 160px;
@@ -246,7 +245,6 @@ a:hover .comments, a:hover .later, a:hover .share {
 
 /**aside**/
 aside {
-	height: 928px;
 	width: 290px;
 	margin-left: 75px;
 	display: inline-block;
