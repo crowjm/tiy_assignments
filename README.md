@@ -11,4 +11,4 @@
 ##Week Two
 * [Day Six Homework](http://crowjm.github.io/tiy_assignments/06_cool_design_agency)
 * [Day Seven Homework](http://crowjm.github.io/tiy_assignments/day_07)
-* [Day Eight Homework](http://crowjm.github.io/tiy_assignments/day_08)
+* [Day Eight Homework](http://crowjm.github.io/tiy_assignments/day_08/surf_and_paddle)
