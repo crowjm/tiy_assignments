@@ -44,26 +44,23 @@ h2 {
   text-align: center; }
 
 /***Staff photos and bios***/
-.all-staff {
-  display: block;
-  margin: 0 auto; }
-  .all-staff .staff {
-    float: left;
-    width: 200px;
-    margin-bottom: 110px; }
-    .all-staff .staff .staff-photo {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px; }
-    .all-staff .staff h3 {
-      font-family: Helvetica, sans-serif;
-      font-size: 18px;
-      font-weight: bold;
-      text-align: center; }
-    .all-staff .staff .staff-about {
-      font-family: Helvetica, sans-serif;
-      font-size: 11px;
-      text-align: center; }
+.staff {
+  float: left;
+  width: 200px;
+  margin-bottom: 110px; }
+  .staff .staff-photo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px; }
+  .staff h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+  .staff .staff-about {
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center; }
 
 .staff:nth-of-type(1) {
   margin-left: 100px; }

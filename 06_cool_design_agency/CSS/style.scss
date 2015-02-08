@@ -65,33 +65,29 @@ h2 {
 
 /***Staff photos and bios***/
 
-.all-staff {
-	display: block;
-	margin: 0 auto;
-		.staff {
-			float: left;
+.staff {
+	float: left;
+	width: 200px;
+	margin-bottom: 110px;
+		.staff-photo {
+			border-radius: 50%;
+			height: 200px;
 			width: 200px;
-			margin-bottom: 110px;
-				.staff-photo {
-					border-radius: 50%;
-					height: 200px;
-					width: 200px;
-				}
-				h3 {
-					font: {
-						family: $font-fam;
-						size: 18px;
-						weight: bold;
-					}
-					text-align: center;
-				}
-				.staff-about {
-					font: {
-						family: $font-fam;
-						size: 11px;
-					}
-					text-align: center;
-				}
+		}
+		h3 {
+			font: {
+				family: $font-fam;
+				size: 18px;
+				weight: bold;
+			}
+			text-align: center;
+		}
+		.staff-about {
+			font: {
+				family: $font-fam;
+				size: 11px;
+			}
+			text-align: center;
 		}
 }
 
