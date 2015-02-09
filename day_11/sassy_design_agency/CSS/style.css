@@ -120,6 +120,9 @@ h2 {
   margin-bottom: 60px; }
 
 /***Staff photos and bios***/
+.all-staff {
+  width: 1280px; }
+
 .staff {
   float: left;
   width: 200px;
@@ -149,6 +152,9 @@ h2 {
   background-image: url(../IMG/darth.jpg); }
 
 /***map and directions***/
+.address-info {
+  width: 1280px; }
+
 .map, .address {
   width: 640px;
   height: 500px;
