@@ -1,0 +1,48 @@
+$font-fam: Helvetica, sans-serif;
+
+@mixin font ($font-fam, $size, $weight) {
+	font-family: $font-fam;
+	font-size: $size;
+	font-weight: $weight;
+}
+
+
+
+h1 {
+	@include font ($font-fam, 20px, bold);
+}
+
+.main li {
+	@include font ($font-fam, 10px, bold);
+}
+
+h2 {
+	@include font ($font-fam, 20px, bold);
+	text-align: center;
+}
+
+h3 {
+	@include font ($font-fam, 18px, bold);
+	text-align: center;
+}
+
+.staff-about {
+	@include font ($font-fam, 11px, normal);
+	text-align: center;
+}
+
+.address {
+	h2 {
+			text-align: left;
+		}
+		h3 {
+			@include font ($font-fam, 20px, bold);
+			text-align: left;
+		}
+}
+
+footer {
+	@include font ($font-fam, 20px, normal);
+	text-align: center;
+}
+

@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+.main li {
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold; }
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center; }
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; }
+
+.staff-about {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center; }
+
+.address h2 {
+  text-align: left; }
+.address h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left; }
+
+footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center; }
+
+/***header***/
+header {
+  height: 50px;
+  width: 1280px;
+  line-height: 50px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 2;
+  top: 0; }
+  header h1 {
+    display: inline-block;
+    margin-left: 40px; }
+
+.main {
+  display: inline-block;
+  vertical-align: top;
+  float: right; }
+  .main li {
+    display: inline-block;
+    margin-right: 40px; }
+
+/***main photo***/
+.main-photo {
+  background-image: url(../IMG/main-photo.jpg);
+  width: 1280px;
+  height: 580px;
+  margin-bottom: 60px; }
+
+/***Our Company***/
+h2 {
+  margin-bottom: 60px; }
+
+/***Staff photos and bios***/
+.staff {
+  float: left;
+  width: 200px;
+  margin-bottom: 110px; }
+  .staff .staff-photo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px; }
+
+.staff:nth-of-type(1) {
+  margin-left: 100px; }
+
+.staff:nth-of-type(2) {
+  margin-left: 240px;
+  margin-right: 240px; }
+
+.staff:nth-of-type(3) {
+  margin-right: 100px; }
+
+.han {
+  background-image: url(../IMG/han.jpg); }
+
+.chewy {
+  background-image: url(../IMG/chewbacca.jpg); }
+
+.darth {
+  background-image: url(../IMG/darth.jpg); }
+
+/***map and directions***/
+.map, .address {
+  width: 640px;
+  height: 500px;
+  display: inline-block;
+  vertical-align: top; }
+
+.address {
+  background-color: #f2ede5;
+  padding-top: 180px;
+  padding-left: 130px;
+  box-sizing: border-box; }
+
+/***footer***/
+footer {
+  height: 130px;
+  width: 1280px;
+  box-sizing: border-box;
+  padding-top: 65px; }
+
+/*# sourceMappingURL=style.css.map */
