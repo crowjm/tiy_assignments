@@ -149,8 +149,11 @@ article {
 			font-size: 14px;
 			color: $body-date;
 		}
-			span {
-				text-decoration: underline;
+			a {
+				color: $body-link-no-hover;
+			}
+			a:hover {
+				color: $body-link-hover;
 			}
 		.article-content {
 			margin-top: 36px;
