@@ -1,0 +1,228 @@
+@mixin gradient($direction, $start-color, $end-color) {
+	background: -webkit-linear-gradient($direction, $start-color, $end-color);
+	background: -moz-linear-gradient($direction, $start-color, $end-color);
+	background: linear-gradient($direction, $start-color, $end-color);
+}
+
+/***colors***/
+
+body {
+  color: $grey;
+  background: $dark-blue;
+}
+
+.logo {
+ border-top: 4px solid $med-blue;
+}
+
+.primary-header a {
+  color: $white;
+}
+
+.primary-header a:hover {
+  color: $med-blue;
+}
+
+.row {
+	background-color: $white;
+}
+
+.row-alt {
+	background-color: #cbe2c1;
+	@include gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+h1, h2, h3, h4 {
+  color: $med-blue;
+}
+
+h5 {
+  color: $light-blue;
+}
+
+a {
+  color: $med-blue;
+}
+
+a:hover {
+  color: $light-blue;
+}
+
+p a {
+  border-bottom: 1px solid $light-grey;
+}
+
+.teaser a:hover h3 {
+  color: $light-blue;
+}
+
+.btn {
+  color: $white;
+}
+
+.btn-alt {
+  border: 1px solid $white;
+}
+
+.btn-alt:hover {
+  background: $white;
+  color: $med-blue;
+}
+
+.hero {
+  color: $white;
+}
+
+.teaser a:hover h3 {
+  color: $light-blue;
+}
+
+.speaker-info {
+	border: 1px solid $light-grey;
+}
+
+.primary-footer {
+	color: $med-blue;
+}
+
+.primary-footer a {
+  color: $white;
+}
+
+.primary-footer a:hover {
+  color: $med-blue;
+}
+
+
+
+/***primary header***/
+.logo {
+  float: left;
+  padding: 40px 0 22px 0;
+}
+
+
+
+/***clearfix***/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/***rows***/
+.row {
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
+
+.row-alt {
+  min-width: 960px;
+  padding: 44px 0 22px 0;
+}
+
+
+/***headlines and ps***/
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+}
+
+
+/***links***/
+a {
+  text-decoration: none;
+}
+
+
+/***buttons***/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn-alt {
+  padding:  10px 30px;
+}
+
+
+/***home***/
+.hero {
+  padding: 22px 80px 66px 80px;
+}
+
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
+
+
+/***speakers***/
+.speaker-info {
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px;
+}
+
+.speaker {
+  margin-bottom: 44px;
+}
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+
+/***venue***/
+.venue-theatre {
+  margin-bottom: 66px;
+}
+
+.venue-hotel {
+  margin-bottom: 22px;
+}
+
+.venue-map {
+  height: 264px;
+}
+
+
+/***primary footer***/
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.primary-footer small {
+  float: left;
+}
+
+
+/***navigation***/
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
