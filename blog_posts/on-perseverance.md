@@ -2,7 +2,7 @@
 
 Attending The Iron Yard is one of the most demanding, challenging, inspiring, and rewarding experiences I've ever had. I'm just over two weeks in and I'm amazed by how much I've learned, and how much more I'll learn in the next two and a half months. The days can be long and the assignments push the limits of what I know. It's all worth it. 
 
-One thing I quickly realized is that perseverance is key to getting the most out of this experience. Giving up on a hard problem or concept is not an option. New material gets introduced every day and builds on what we've already learned--to say class moves quickly is an understatement. 
+One thing I quickly realized is that perseverance is key to getting the most out of this experience. Giving up on a hard problem or concept is not an option. New material gets introduced every day and builds on what we've already learned&mdash;to say class moves quickly is an understatement. 
 
 I have to dig deep. 
 
@@ -12,4 +12,4 @@ Dig deep into the code. If something isn't working, I have to take a break so th
 
 And I have to dig deep into myself. I know I can do this. I know that I know more than I think I do. Keeping this at the forefront can be difficult at times, but having a self-defeating attitude creates a doomsday spiral no one wants to go down.
 
-The best thing about The Iron Yard is that no one has to go it alone. If I'm stumped, I have plenty of people around me who I can ask for help, who can be a sounding board, and who can point me in the right direction. When I figure out a challenging concept, I have people to high five. Persevering through difficult concepts is a lot easier with a supportive community, and I'm thankful to be part of this one. 
+The best thing about The Iron Yard is that no one has to go it alone. If I'm stumped, I have plenty of people around me who I can ask for help, who can be a sounding board, and who can point me in the right direction. When I figure out a challenging concept, I have people to high five. Persevering is a lot easier with a supportive community, and I'm thankful to be part of this one. 
