@@ -1,7 +1,7 @@
 #Table of Contents
 
 ##Week Four
-* [Day Sixteen Homework](http://crowjm.github.io/tiy_assignments/day_16/surf_and_paddle)
+* [Day Sixteen Homework](http://crowjm.github.io/tiy_assignments/day_16/surf_paddle_rwd)
 
 ##Week Three
 * [Day Eleven Homework, Part One](http://crowjm.github.io/tiy_assignments/day_11/sassy_design_agency/)
