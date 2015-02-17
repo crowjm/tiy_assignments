@@ -517,17 +517,15 @@ footer {
   .popular-posts {
     border-top: 0.0625em solid #e1e7ea; }
 
-  .posts-float p {
-    display: none; }
-
   .posts-float {
     width: 25%;
     /*is currently taking up 25% of the page, but I can't get the photo to fill the 25%*/
     margin: 0; }
-
-  .popular-post-photos {
-    width: 100%;
-    /*thought this would make it take up 100% of its parent container, .posts-float*/ }
+    .posts-float .popular-post-photos {
+      width: 100%;
+      /*thought this would make it take up 100% of its parent container, .posts-float*/ }
+    .posts-float p {
+      display: none; }
 
   /***footer***/
   .footer-wrapper {
