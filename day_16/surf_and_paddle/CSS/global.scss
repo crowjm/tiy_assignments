@@ -185,27 +185,27 @@ blockquote {
 
 .comment-photo {
 	background-image: url(../IMG/comments-icon.png);
-	height: 30px;
-	width: 34px;
+	height: 1.875em;
+	width: 2.125em;
 }
 
 .read-photo {
 	background-image: url(../IMG/read-later-icon.png);
-	height: 30px;
-	width: 34px;
+	height: 1.875em;
+	width: 2.125em;
 }
 
 .share-photo {
 	background-image: url(../IMG/share-icon.png);
-	height: 30px;
-	width: 34px;
+	height: 1.875em;
+	width: 2.125em;
 }
 
 .comments p, .later p, .share p {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 10px;
-	margin-left: 8px;
+	margin-top: 0.625em;
+	margin-left: 0.5em;
 	color: $button-p;
 }
 
@@ -251,7 +251,7 @@ aside {
 		li {
 			display: inline-block;
 			vertical-align: top;
-			font-size: 14px;
+			font-size: 0.875em;
 		}
 		li:nth-of-type(2) {
 			margin-right: 0.5em;
@@ -279,7 +279,7 @@ aside {
 	text-align: center;
 	text-decoration: underline;
 	margin: 0.25em auto 0.25em auto;
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 .sidebar-content {
