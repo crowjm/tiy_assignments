@@ -1,0 +1,391 @@
+$font-fam: 'Open Sans', sans-serif;
+
+
+/***whole page***/
+
+body {
+	font-family: $font-fam;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+
+
+/***header***/
+
+header {
+	background-image: url(../IMG/mainphoto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: $header-text;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;	
+	width: 100%;					
+}
+
+.left-logo {
+	text-align: center;
+}
+
+.logo {
+	background-image: url(../IMG/logo.png);
+	background-repeat: no-repeat;
+	height: 2.8125em;
+	width: 2.8125em;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 1.25em;
+	}
+
+.logo-text {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0.5em;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: white;
+	padding-bottom: 0.25em;
+	padding-top: 0.4em;
+}
+
+.header-nav {
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 600;
+		a {
+			color: $body-link-no-hover;
+		}
+		a:hover {
+			color: $header-text;
+		}
+}
+
+.header-nav li:nth-of-type(2) {
+	padding-left: 1.25em;
+}
+
+h1 {
+	display: none;
+}
+
+.big-header-text p {
+	font-weight: 600;
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+
+
+/***main content***/
+
+section {
+	width: 100%;
+	margin-top: 1.5em;
+}
+
+/**article**/
+article {
+	width: 100%;
+	vertical-align: top;
+	color: $body-text;
+		h2 {
+			font-weight: 600;
+			font-size: 1.8125em;
+			line-height: 1.2;
+			letter-spacing: 0.025em;
+		}
+			a {
+				color: $body-link-no-hover;
+			}
+			a:hover {
+				color: $body-link-hover;
+			}
+}
+
+.photo, .author-name, .date {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.photo {
+	height: 1.5em;
+	width: 1.5em;
+	background-image: url(../IMG/HTEmil.jpg);
+	margin-top: 0.875em;
+	border-radius: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.author-name {
+	font-weight: 600;
+	font-size: 0.875em;
+	margin-left: 0.5em;
+	margin-top: 1.5em;
+}
+
+.date {
+	margin-top: 1.5em;
+	margin-left: 0.3125em;
+	font-size: 0.875em;
+	color: $body-date;
+}
+
+.article-content {
+	margin-top: 1.5em;
+	line-height: 1.65;
+	a {
+		color: $body-link-no-hover;
+	}
+	a:hover {
+		color: $body-link-hover;
+	}	
+}
+
+blockquote {
+	font-size: 1.875em;
+	font-weight: bold;
+	margin-left: 0.625em;
+	border-left: 0.0625em solid $blockquote-border;
+	margin-bottom: 0.1875em;
+	color: $blockquote-text;
+	line-height: 1.5;
+	p {
+		padding-left: 1em;
+	}
+}
+
+
+/**interactive icons**/
+.interact {
+	margin-top: 1.125em;
+}
+
+.comments, .later, .share {
+	font-size: 0.875em;
+	font-weight: 600;
+	background-color: $button-bg;
+	width: 50%;
+	margin-top: 1em;
+}
+
+.comment-photo, .read-photo, .share-photo {
+	display: inline-block;
+	vertical-align: top;
+	background-color: $button-img-bg;
+}
+
+.comment-photo {
+	background-image: url(../IMG/comments-icon.png);
+	height: 30px;
+	width: 34px;
+}
+
+.read-photo {
+	background-image: url(../IMG/read-later-icon.png);
+	height: 30px;
+	width: 34px;
+}
+
+.share-photo {
+	background-image: url(../IMG/share-icon.png);
+	height: 30px;
+	width: 34px;
+}
+
+.comments p, .later p, .share p {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 8px;
+	color: $button-p;
+}
+
+a:hover .comment-photo, a:hover .read-photo, a:hover .share-photo {
+	background-color: $button-img-bg-hover;
+}
+a:hover .comments, a:hover .later, a:hover .share {
+	background-color: $button-bg-hover;
+}
+
+/**aside**/
+aside {
+	color: $aside-text;
+}
+
+.big-author-photo {
+	height: 2.5625em;
+	width: 2.5625em;
+	border-radius: 50%;
+	background-image: url(../IMG/HTEmil.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sidebar-author-name {
+	margin-top: 2em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	font-size: 0.875em;
+	color: $aside-name;
+	font-weight: 600;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.author-social {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1.75em;
+		li {
+			display: inline-block;
+			vertical-align: top;
+			font-size: 14px;
+		}
+		li:nth-of-type(2) {
+			margin-right: 0.5em;
+			margin-left: 0.5em;
+		}
+}
+
+.ad-border {
+	border-bottom: 0.0625em solid $border;
+	border-top: 0.0625em solid $border;
+	margin-top: 2em;
+}
+
+.advertisement {
+	background-image: url(../IMG/paddle-lady.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 18.75em;
+	width: 17.5em;
+	max-width: 100%;
+	margin: 0.25em auto 0 auto;
+}
+
+.ad-caption {
+	text-align: center;
+	text-decoration: underline;
+	margin: 0.25em auto 0.25em auto;
+	font-size: 14px;
+}
+
+.sidebar-content {
+	margin-top: 2em;
+	margin-bottom: 2em;
+		h4 {
+			font-size: 1.125em;
+			color: $aside-section-header;
+		}
+		 p {
+			margin-top: 0.5em;
+			line-height: 1.75;
+			font-size: 0.875em;
+		}
+}
+
+
+/***popular posts***/
+
+.popular-posts {
+	width: 100%;
+	font-size: 2em;
+	padding-top: 0.5em;
+	color: $pop-posts;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.posts-float {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	.popular-posts-photos {
+		min-width: 5.5em;
+		min-height: 5.5em;
+		line-height: 1.4;
+		margin-bottom: 0.5em;
+		margin-right: 1em;
+		float: left;
+	}
+	p {
+		float: left;
+		padding-top: 2em;
+		width: calc(100% - 6.5em);
+	}
+}
+
+.photo1 {
+	background-image: url(../IMG/pop-post-1.jpg);
+	background-size: cover;
+}
+
+.photo2 {
+	background-image: url(../IMG/pop-post-2.jpg);
+	background-size: cover;	
+}
+
+.photo3 {
+	background-image: url(../IMG/pop-post-3.jpg);
+	background-size: cover;
+}
+
+.photo4 {
+	background-image: url(../IMG/pop-post-4.jpg);
+	background-size: cover;
+}
+
+
+
+/***footer***/
+
+footer {
+	background-color: $footer-bg;
+	color: $footer-text;
+	width: 100%;
+	padding-top: 1em;
+		.tiy-logo {
+			background-image: url(../IMG/theironyard.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 2.375em;
+			width: 3.0625em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		p {
+			margin-top: 1em;
+			margin-right: auto;
+			margin-left: auto;
+			width: 90%;
+			text-align: center;
+			font-size: 0.8em;
+		}
+}
+
+.footer-nav {
+			font-size: 0.875em;
+				ul {
+					width: 95%;
+					margin: 0 auto;
+					text-align: center;
+					padding-top: 0.5em;
+					padding-bottom: 0.5em;
+					li {
+						display: inline-block;
+						font-size: 0.8em;
+					}
+				}
+		}

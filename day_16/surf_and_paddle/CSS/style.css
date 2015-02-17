@@ -1,0 +1,561 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/***whole page***/
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%; }
+
+/***header***/
+header {
+  background-image: url(../IMG/mainphoto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #083451;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 100%; }
+
+.left-logo {
+  text-align: center; }
+
+.logo {
+  background-image: url(../IMG/logo.png);
+  background-repeat: no-repeat;
+  height: 2.8125em;
+  width: 2.8125em;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 1.25em; }
+
+.logo-text {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.5em;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 0.25em;
+  padding-top: 0.4em; }
+
+.header-nav {
+  text-align: center;
+  padding-bottom: 0.5em; }
+
+li {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 600; }
+  li a {
+    color: #b0bdc7; }
+  li a:hover {
+    color: #083451; }
+
+.header-nav li:nth-of-type(2) {
+  padding-left: 1.25em; }
+
+h1 {
+  display: none; }
+
+.big-header-text p {
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 0.5em; }
+
+/***main content***/
+section {
+  width: 100%;
+  margin-top: 1.5em; }
+
+/**article**/
+article {
+  width: 100%;
+  vertical-align: top;
+  color: #083452; }
+  article h2 {
+    font-weight: 600;
+    font-size: 1.8125em;
+    line-height: 1.2;
+    letter-spacing: 0.025em; }
+  article a {
+    color: #b0bdc7; }
+  article a:hover {
+    color: #317ab9; }
+
+.photo, .author-name, .date {
+  display: inline-block;
+  vertical-align: top; }
+
+.photo {
+  height: 1.5em;
+  width: 1.5em;
+  background-image: url(../IMG/HTEmil.jpg);
+  margin-top: 0.875em;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.author-name {
+  font-weight: 600;
+  font-size: 0.875em;
+  margin-left: 0.5em;
+  margin-top: 1.5em; }
+
+.date {
+  margin-top: 1.5em;
+  margin-left: 0.3125em;
+  font-size: 0.875em;
+  color: #b0bdc7; }
+
+.article-content {
+  margin-top: 1.5em;
+  line-height: 1.65; }
+  .article-content a {
+    color: #b0bdc7; }
+  .article-content a:hover {
+    color: #317ab9; }
+
+blockquote {
+  font-size: 1.875em;
+  font-weight: bold;
+  margin-left: 0.625em;
+  border-left: 0.0625em solid #d3d3d3;
+  margin-bottom: 0.1875em;
+  color: #106db3;
+  line-height: 1.5; }
+  blockquote p {
+    padding-left: 1em; }
+
+/**interactive icons**/
+.interact {
+  margin-top: 1.125em; }
+
+.comments, .later, .share {
+  font-size: 0.875em;
+  font-weight: 600;
+  background-color: #a3b3bf;
+  width: 50%;
+  margin-top: 1em; }
+
+.comment-photo, .read-photo, .share-photo {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #5e686f; }
+
+.comment-photo {
+  background-image: url(../IMG/comments-icon.png);
+  height: 30px;
+  width: 34px; }
+
+.read-photo {
+  background-image: url(../IMG/read-later-icon.png);
+  height: 30px;
+  width: 34px; }
+
+.share-photo {
+  background-image: url(../IMG/share-icon.png);
+  height: 30px;
+  width: 34px; }
+
+.comments p, .later p, .share p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 8px;
+  color: #fff; }
+
+a:hover .comment-photo, a:hover .read-photo, a:hover .share-photo {
+  background-color: #083452; }
+
+a:hover .comments, a:hover .later, a:hover .share {
+  background-color: #106db3; }
+
+/**aside**/
+aside {
+  color: #a3b3bf; }
+
+.big-author-photo {
+  height: 2.5625em;
+  width: 2.5625em;
+  border-radius: 50%;
+  background-image: url(../IMG/HTEmil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+  display: inline-block;
+  vertical-align: top; }
+
+.sidebar-author-name {
+  margin-top: 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 0.875em;
+  color: #106db3;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: top; }
+
+.author-social {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.75em; }
+  .author-social li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px; }
+  .author-social li:nth-of-type(2) {
+    margin-right: 0.5em;
+    margin-left: 0.5em; }
+
+.ad-border {
+  border-bottom: 0.0625em solid #e1e7ea;
+  border-top: 0.0625em solid #e1e7ea;
+  margin-top: 2em; }
+
+.advertisement {
+  background-image: url(../IMG/paddle-lady.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 18.75em;
+  width: 17.5em;
+  max-width: 100%;
+  margin: 0.25em auto 0 auto; }
+
+.ad-caption {
+  text-align: center;
+  text-decoration: underline;
+  margin: 0.25em auto 0.25em auto;
+  font-size: 14px; }
+
+.sidebar-content {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .sidebar-content h4 {
+    font-size: 1.125em;
+    color: #106db3; }
+  .sidebar-content p {
+    margin-top: 0.5em;
+    line-height: 1.75;
+    font-size: 0.875em; }
+
+/***popular posts***/
+.popular-posts {
+  width: 100%;
+  font-size: 2em;
+  padding-top: 0.5em;
+  color: #083452;
+  padding-bottom: 0.5em;
+  text-align: center; }
+
+.posts-float {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto; }
+  .posts-float .popular-posts-photos {
+    min-width: 5.5em;
+    min-height: 5.5em;
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    float: left; }
+  .posts-float p {
+    float: left;
+    padding-top: 2em;
+    width: calc(100% - 6.5em); }
+
+.photo1 {
+  background-image: url(../IMG/pop-post-1.jpg);
+  background-size: cover; }
+
+.photo2 {
+  background-image: url(../IMG/pop-post-2.jpg);
+  background-size: cover; }
+
+.photo3 {
+  background-image: url(../IMG/pop-post-3.jpg);
+  background-size: cover; }
+
+.photo4 {
+  background-image: url(../IMG/pop-post-4.jpg);
+  background-size: cover; }
+
+/***footer***/
+footer {
+  background-color: #083452;
+  color: #a3b3bf;
+  width: 100%;
+  padding-top: 1em; }
+  footer .tiy-logo {
+    background-image: url(../IMG/theironyard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2.375em;
+    width: 3.0625em;
+    margin-left: auto;
+    margin-right: auto; }
+  footer p {
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 0.8em; }
+
+.footer-nav {
+  font-size: 0.875em; }
+  .footer-nav ul {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
+    .footer-nav ul li {
+      display: inline-block;
+      font-size: 0.8em; }
+
+@media screen and (min-width: 620px) {
+  /***header***/
+  .left-logo {
+    margin-top: 10px;
+    float: left; }
+
+  .logo-text {
+    color: #083451;
+    font-size: 1.125em;
+    padding-top: 0.6em; }
+
+  .search-icon {
+    background-image: url(../IMG/search.png);
+    background-size: cover;
+    height: 1.75em;
+    width: 1.75em;
+    float: right;
+    margin-top: -0.375em;
+    margin-left: 0.125em; }
+
+  .header-nav {
+    float: right;
+    margin-top: 1.25em; }
+
+  .header-nav ul {
+    float: left; }
+    .header-nav ul li {
+      font-size: 1.125em; }
+
+  .header-nav li:nth-of-type(2) {
+    padding-left: 0.5em; }
+
+  .big-header-text {
+    clear: both; }
+
+  h1 {
+    display: block;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.25em; }
+
+  /***main content***/
+  section {
+    margin-top: 2em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .interact {
+    margin: 0 0 1em 0; }
+
+  .comments, .later, .share {
+    display: inline-block;
+    vertical-align: top; }
+
+  .comments {
+    width: 11.6em; }
+
+  .later {
+    margin-left: 0.75em;
+    width: 9em; }
+
+  .share {
+    margin-left: 0.75em;
+    width: 11.1em; }
+
+  /***aside***/
+  .big-author-photo {
+    height: 5.125em;
+    width: 5.125em;
+    display: inline-block;
+    vertical-align: top; }
+
+  .sidebar-author-name {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4em; }
+
+  .author-social {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3.5em;
+    margin-left: 1em; }
+
+  /***popular posts***/
+  .popular-posts {
+    font-size: 3em;
+    overflow: hidden; }
+
+  .posts-float {
+    width: 46%;
+    float: left;
+    margin-bottom: 1em;
+    margin-left: 4%; }
+
+  /***footer***/
+  footer {
+    clear: both; } }
+@media screen and (min-width: 950px) {
+  /***header***/
+  header {
+    padding-top: 2em;
+    padding-bottom: 3em; }
+
+  h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0; }
+
+  /***article***/
+  .main-content {
+    max-width: 1200px;
+    margin-left: 0;
+    margin-right: 0; }
+
+  article {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    margin-right: 5%; }
+
+  /***aside***/
+  aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    margin-left: 2%; }
+
+  .big-author-photo {
+    display: block;
+    margin: 0 auto; }
+
+  .sidebar-author-name {
+    display: block;
+    margin-top: 0.25em;
+    text-align: center; }
+
+  .author-social {
+    display: block;
+    text-align: center;
+    margin-top: 0.25em;
+    margin-left: 0; }
+
+  .ad-border {
+    border-top: none;
+    border-bottom: none; }
+
+  /***popular posts***/
+  .popular-posts {
+    border-top: 0.0625em solid #e1e7ea; }
+
+  .posts-float p {
+    display: none; }
+
+  .posts-float {
+    width: 25%;
+    /*is currently taking up 25% of the page, but I can't get the photo to fill the 25%*/
+    margin: 0; }
+
+  .popular-post-photos {
+    width: 100%;
+    /*thought this would make it take up 100% of its parent container, .posts-float*/ }
+
+  /***footer***/
+  .footer-wrapper {
+    width: 90%;
+    margin: 0 auto; }
+
+  footer {
+    padding-bottom: 1em; }
+    footer .tiy-logo {
+      margin-left: 0;
+      margin-right: 0;
+      display: inline-block;
+      vertical-align: top; }
+    footer p {
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      margin-right: 0;
+      margin-left: 1em;
+      width: 40%; }
+
+  .footer-nav {
+    float: right; }
+    .footer-nav ul {
+      text-align: right;
+      padding-top: 0.7em;
+      padding-bottom: 0.5em;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
