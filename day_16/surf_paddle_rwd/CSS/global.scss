@@ -313,7 +313,7 @@ aside {
 	width: 90%;
 	margin: 0 auto;
 	.popular-posts-photos {
-		min-width: 5.5em;
+		width: 28%;
 		min-height: 5.5em;
 		/*^these are what's giving me trouble*/
 		line-height: 1.4;
@@ -324,7 +324,7 @@ aside {
 	p {
 		float: left;
 		padding-top: 2em;
-		width: calc(100% - 6.5em);
+		width: calc(100% - 28% - 1em);
 	}
 }
 

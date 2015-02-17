@@ -199,10 +199,12 @@ aside {
 }
 
 .posts-float {
-	width: 25%; /*is currently taking up 25% of the page, but I can't get the photo to fill the 25%*/
+	width: 25%; 
 	margin: 0;
-	.popular-post-photos {
-		width: 100%; /*thought this would make it take up 100% of its parent container, .posts-float*/
+	.popular-posts-photos {
+		width: 100%;
+		min-height: 19.5em;
+		margin-bottom: 0;
 	}
 	p{
 		display: none;
