@@ -63,18 +63,18 @@ h3 {
 p, a {
   font-family: "sharik-sans", sans-serif;
   font-weight: 400;
-  font-size: 1em; }
+  font-size: 1.1em; }
 
 .item-description {
   font-family: "sharik-sans", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 1em; }
+  font-size: 1.1em; }
 
 .item-price {
   font-family: "sharik-sans", sans-serif;
   font-weight: 400;
-  font-size: 1em; }
+  font-size: 1.1em; }
 
 h1, h2, h3 {
   line-height: 1.3; }
@@ -86,11 +86,7 @@ span {
   font-weight: bold; }
 
 .menu-left a, .menu-right a {
-  font-weight: bold;
-  font-size: 1.1em; }
-
-.hours p, .index-menu p, .contact a, .brief-about p, .upcoming-events p {
-  font-size: 1.25em; }
+  font-weight: bold; }
 
 h1, .item-description {
   color: #0c839e; }
@@ -119,29 +115,19 @@ header, footer {
 .logo h2 {
   color: white; }
 
-.menu-left a, .menu-right a, .contact a, .index-menu a {
+.menu-left a, .menu-right a, .contact a, .index-menu a, .happy-cow a {
   color: #0c839e; }
 
-.menu-left a:hover, .menu-right a:hover, .map h3:hover, .contact a:hover, .index-menu a:hover {
+.menu-left a:hover, .menu-right a:hover, .map h3:hover, .contact a:hover, .index-menu a:hover, .happy-cow a:hover {
   color: #51d4f2; }
 
-.hours h1, .index-menu h1, .contact h1, .brief-about h1, .upcoming-events h1 {
+.hours h1, .index-menu h1, .contact h1, .brief-about h1, .upcoming-events h1, .happy-cow h1 {
   text-shadow: 2px 2px 2px white, 5px 2px 3px #ffc000, 5px 2px 3px #ffc000; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .responsive-nav {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  height: 50px;
-  width: 75px;
-  text-align: center;
-  padding-top: 10px;
-  border: 2px solid white;
-  border-radius: 5px;
-  background-color: #ffc000;
   float: right;
-  margin-top: 0.5em; }
+  margin-top: 1.2em; }
 
 .nav-collapse ul {
   margin: 0;
@@ -176,7 +162,18 @@ header, footer {
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none; }
+  user-select: none;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #ffc000;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px; }
 
 /***global CSS, smallest size***/
 /***universal***/
@@ -188,6 +185,9 @@ header, footer {
 
 a {
   text-decoration: none; }
+
+img {
+  width: 100%; }
 
 /***header***/
 .logo {
@@ -212,45 +212,40 @@ a {
     font-size: 2em;
     text-shadow: 2px 2px 18px black, 2px 2px 18px black; }
 
-.map {
-  margin-bottom: 4em; }
-  .map img {
-    width: 100%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.5em;
-    border-radius: 5px;
-    display: block; }
-  .map a {
-    text-align: center; }
+.map a {
+  text-align: center; }
 
-.hours, .index-menu, .contact, .brief-about, .upcoming-events {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding-left: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  border-radius: 5px; }
-
-.hours, .contact, .upcoming-events {
-  background-color: #aeedfb; }
-
-.index-menu, .brief-about {
-  background-color: #fff2cc; }
-
-.hours, .index-menu, .brief-about, .upcoming-events {
-  margin-bottom: 4em; }
-
-.contact {
-  margin-bottom: 4em; }
-  .contact a {
-    display: block; }
+.contact a {
+  display: block; }
 
 .index-menu h1, .hours h1, .contact h1, .brief-about h1, .upcoming-events h1 {
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.25em; }
+
+.map, .hours, .index-menu, .strongman, .contact, .upcoming-events, .brief-about, .coffeebar, .happy-cow, .seating {
+  margin-bottom: 3em; }
+
+.strongman {
+  background-image: url(../IMG/bouldin-strongman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px; }
+
+.coffeebar {
+  background-image: url(../IMG/bouldin-coffeebar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  min-height: 300px; }
+
+.seating {
+  background-image: url(../IMG/bouldin-seating.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  min-height: 300px; }
+
+.main-content {
+  margin-bottom: 4em; }
 
 /***menu page***/
 .hero-menu {
@@ -318,11 +313,21 @@ a {
     font-size: 2em;
     text-shadow: 2px 2px 18px black, 2px 2px 18px black; }
 
-.about p, .about img {
-  margin-bottom: 1em; }
+.about p {
+  margin-bottom: 1em;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .about img {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  margin-top: 2em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+.about .last-item {
+  margin-bottom: 4em; }
 
 /***footer***/
 footer {
@@ -365,12 +370,37 @@ footer li {
     padding-bottom: 2em;
     font-size: 2.5em; }
 
-  .map, .hours, .index-menu, .contact, .brief-about, .upcoming-events {
-    width: 47.5%;
+  .map, .hours, .index-menu, .strongman, .contact, .upcoming-events, .brief-about, .coffeebar, .happy-cow, .seating {
+    height: 400px;
+    margin-bottom: 0;
     float: left; }
 
-  .map, .index-menu, .brief-about {
-    margin-right: 5%; }
+  .hours, .index-menu, .contact, .upcoming-events, .brief-about, .happy-cow {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em; }
+
+  .index-menu, .happy-cow {
+    background-color: #34d2f5; }
+
+  .hours, .brief-about {
+    background-color: #0e97b6; }
+
+  .contact, .upcoming-events {
+    background-color: #ffd34d; }
+
+  .map, .brief-about {
+    width: 60%; }
+
+  .hours, .upcoming-events {
+    width: 40%; }
+
+  .index-menu, .strongman, .contact, .coffeebar, .happy-cow, .seating {
+    width: 33.333%; }
 
   /***menu page***/
   .menu-left a, .menu-right a {
@@ -391,13 +421,26 @@ footer li {
     margin-bottom: 1em; }
 
   .allergies, .menu-section {
-    clear: both; } }
+    clear: both; }
+
+  /***about page***/
+  .hero-about h1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 2.5em; } }
 @media screen and (min-width: 950px) {
   /***main page***/
   .hero-main h1 {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
     font-size: 3em; }
+
+  .map {
+    background-color: #ffd34d; }
+    .map img {
+      display: block;
+      margin: auto;
+      width: 75%; }
 
   /***menu page***/
   .menu-nav {

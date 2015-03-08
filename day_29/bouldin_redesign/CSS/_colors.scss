@@ -1,32 +1,31 @@
-$h1-item-description-menunav: #0c839e;
-$p-allergies: #767b7c;
-$h2-h3: #0aaed3;
-$item-price: #ffc000;
-$links: white;
-$header-footer-bg: #0aaed3;
+$teal: #0c839e;
+$grey: #767b7c;
+$brightblue: #0aaed3;
+$yellow: #ffc000;
+$white: white;
 
 h1, .item-description, {
-	color: $h1-item-description-menunav;
+	color: $teal;
 }
 
 p, .allergies {
-	color: $p-allergies;	
+	color: $grey;	
 }
 
 h2, h3 {
-	color: $h2-h3;
+	color: $brightblue;
 }
 
 .item-price {
-	color: $item-price;
+	color: $yellow;
 }
 
 a {
-	color: $links;
+	color: $white;
 }
 
 a:hover {
-	color: $item-price;
+	color: $yellow;
 }
 
 .hero {
@@ -36,7 +35,7 @@ a:hover {
 }
 
 header, footer {
-	background-color: $header-footer-bg;
+	background-color: $brightblue;
 }
 
 .logo {
@@ -45,14 +44,14 @@ header, footer {
 	}
 }
 
-.menu-left a, .menu-right a, .contact a, .index-menu a {
-	color: $h1-item-description-menunav;
+.menu-left a, .menu-right a, .contact a, .index-menu a, .happy-cow a {
+	color: $teal;
 }
 
-.menu-left a:hover, .menu-right a:hover, .map h3:hover, .contact a:hover, .index-menu a:hover {
-	color: lighten($h1-item-description-menunav, 30%);
+.menu-left a:hover, .menu-right a:hover, .map h3:hover, .contact a:hover, .index-menu a:hover, .happy-cow a:hover {
+	color: lighten($teal, 30%);
 }
 
-.hours h1, .index-menu h1, .contact h1, .brief-about h1, .upcoming-events h1 {
-	text-shadow: 2px 2px 2px white, 5px 2px 3px $item-price, 5px 2px 3px $item-price;
+.hours h1, .index-menu h1, .contact h1, .brief-about h1, .upcoming-events h1, .happy-cow h1 {
+	text-shadow: 2px 2px 2px white, 5px 2px 3px $yellow, 5px 2px 3px $yellow;
 }

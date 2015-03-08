@@ -19,20 +19,20 @@
 @mixin p-a {
 	font-family: "sharik-sans", sans-serif;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 @mixin item-description {
 	font-family: "sharik-sans", sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 @mixin item-price {
 	font-family: "sharik-sans", sans-serif;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 
@@ -75,9 +75,4 @@ span {
 
 .menu-left a, .menu-right a {
 	font-weight: bold;
-	font-size: 1.1em;
-}
-
-.hours p, .index-menu p, .contact a, .brief-about p, .upcoming-events p {
-	font-size: 1.25em;
 }

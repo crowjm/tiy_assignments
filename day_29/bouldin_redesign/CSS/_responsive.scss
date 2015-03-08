@@ -33,14 +33,49 @@
 	}
 }
 
-.map, .hours, .index-menu, .contact, .brief-about, .upcoming-events {
-	width: 47.5%;
+.map, .hours, .index-menu, .strongman, .contact, .upcoming-events, .brief-about, .coffeebar, .happy-cow, .seating {
+	height: 400px;
+	margin-bottom: 0;
 	float: left;
 }
 
-.map, .index-menu, .brief-about {
-	margin-right: 5%;
+.hours, .index-menu, .contact, .upcoming-events, .brief-about, .happy-cow, {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
+
+.index-menu, .happy-cow {
+	background-color: lighten($brightblue, 15%);
+}
+
+.hours, .brief-about {
+	background-color: lighten($teal, 5%);
+}
+
+.contact, .upcoming-events {
+	background-color: lighten($yellow, 15%);
+}
+
+.map, .brief-about {
+	width: 60%;
+}
+
+.hours, .upcoming-events {
+	width: 40%;
+}
+
+.index-menu, .strongman, .contact, .coffeebar, .happy-cow, .seating {
+	width: 33.333%;
+}
+
+
+
+
 
 /***menu page***/
 .menu-left a, .menu-right a {
@@ -68,6 +103,17 @@
 .allergies, .menu-section {
 	clear: both;
 }
+
+
+/***about page***/
+.hero-about {
+	h1 {
+		padding-top: 2em;
+		padding-bottom: 2em;
+		font-size: 2.5em;
+	}
+}
+
 }
 
 @media screen and (min-width: 950px) {
@@ -77,6 +123,15 @@
 		padding-top: 2.5em;
 		padding-bottom: 2.5em;
 		font-size: 3em;
+	}
+}
+
+.map {
+	background-color: lighten($yellow, 15%);
+	img {
+		display: block;
+		margin: auto;
+		width: 75%;
 	}
 }
 

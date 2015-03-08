@@ -12,6 +12,9 @@ a {
 	text-decoration: none;
 }
 
+img {
+	width: 100%;
+}
 
 /***header***/
 .logo {
@@ -42,55 +45,48 @@ a {
 	}
 }
 
-.map {
-	margin-bottom: 4em;
-	img {
-		width: 100%;
-		max-width: 600px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 0.5em;
-		border-radius: 5px;
-		display: block;
-	}
-	a {
-		text-align: center;
-	}
+.map a {
+	text-align: center;
 }
 
-.hours, .index-menu, .contact, .brief-about, .upcoming-events {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	padding-left: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	padding-left: 1em;
-	border-radius: 5px;
-}
-
-.hours, .contact, .upcoming-events {
-	background-color: lighten($h2-h3, 40%);
-}
-
-.index-menu, .brief-about {
-	background-color: lighten($item-price, 40%);
-}
-
-.hours, .index-menu, .brief-about, .upcoming-events {
-	margin-bottom: 4em;
-}
-
-.contact {
-	margin-bottom: 4em;
-	a {
-		display: block;
-	}
+.contact a {
+	display: block;
 }
 
 .index-menu h1, .hours h1, .contact h1, .brief-about h1, .upcoming-events h1 {
-	margin-bottom: 0.5em;
-} 
+	margin-bottom: 0.25em;
+}
+
+.map, .hours, .index-menu, .strongman, .contact, .upcoming-events, .brief-about, .coffeebar, .happy-cow, .seating {
+	margin-bottom: 3em;
+}
+
+.strongman {
+	background-image: url(../IMG/bouldin-strongman.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+
+.coffeebar {
+	background-image: url(../IMG/bouldin-coffeebar.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	min-height: 300px;
+}
+
+.seating {
+	background-image: url(../IMG/bouldin-seating.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	min-height: 300px;
+}
+
+.main-content {
+	margin-bottom: 4em;
+}
 
 
 /***menu page***/
@@ -124,7 +120,7 @@ a {
 }
 
 .breakfast-header {
-	text-shadow: 2px 2px 2px white, 5px 2px 3px $item-price, 5px 2px 3px $item-price;
+	text-shadow: 2px 2px 2px white, 5px 2px 3px $yellow, 5px 2px 3px $yellow;
 	margin-bottom: 0.5em;
 }
 
@@ -177,14 +173,24 @@ a {
 	}
 }
 
-.about p, .about img {
+.about p {
 	margin-bottom: 1em;
+	max-width: 700px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .about img {
 	margin-bottom: 2em;
+	margin-top: 2em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
+.about .last-item {
+	margin-bottom: 4em;
+}
 
 
 
