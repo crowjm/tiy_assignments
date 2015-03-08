@@ -140,19 +140,20 @@ header, footer {
   border: 2px solid white;
   border-radius: 5px;
   background-color: #ffc000;
-  position: absolute;
-  top: 0.5em;
-  right: 1.25em; }
+  float: right;
+  margin-top: 0.5em; }
 
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: block; }
+  display: block;
+  background-color: #0aaed3; }
 
 .nav-collapse li {
   width: 100%;
-  display: block; }
+  display: block;
+  background-color: #0aaed3; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -160,11 +161,13 @@ header, footer {
   position: relative;
   display: block;
   overflow: hidden;
-  zoom: 1; }
+  zoom: 1;
+  background-color: #0aaed3; }
 
 .nav-collapse.opened {
   max-height: 300px;
-  position: relative; }
+  position: relative;
+  background-color: #0aaed3; }
 
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
@@ -187,16 +190,18 @@ a {
   text-decoration: none; }
 
 /***header***/
-.logo h2 {
-  padding-top: 0.75em;
-  padding-bottom: 0.75em; }
+.logo {
+  float: left; }
+  .logo h2 {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em; }
 
 .desktop {
   display: none; }
 
 /***main page***/
 .hero-main {
-  background-image: url(/IMG/bouldin-mural-home.jpg);
+  background-image: url(../IMG/bouldin-mural-home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 3em; }
@@ -249,7 +254,7 @@ a {
 
 /***menu page***/
 .hero-menu {
-  background-image: url(/IMG/bouldin-mural-menu.jpg);
+  background-image: url(../IMG/bouldin-mural-menu.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 3em; }
@@ -302,7 +307,7 @@ a {
 
 /***about page***/
 .hero-about {
-  background-image: url(/IMG/bouldin-mural-about.jpg);
+  background-image: url(../IMG/bouldin-mural-about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 3em; }
@@ -312,6 +317,12 @@ a {
     text-align: center;
     font-size: 2em;
     text-shadow: 2px 2px 18px black, 2px 2px 18px black; }
+
+.about p, .about img {
+  margin-bottom: 1em; }
+
+.about img {
+  margin-bottom: 2em; }
 
 /***footer***/
 footer {

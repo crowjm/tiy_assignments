@@ -12,9 +12,8 @@
   border: 2px solid white;
   border-radius: 5px;
   background-color: $item-price;
-  position: absolute;
-  top: 0.5em;
-  right: 1.25em;
+  float: right;
+  margin-top: 0.5em;
 }
 
 .nav-collapse ul {
@@ -22,11 +21,13 @@
   padding: 0;
   width: 100%;
   display: block;
+  background-color: $header-footer-bg;
   }
 
 .nav-collapse li {
   width: 100%;
   display: block;
+  background-color: $header-footer-bg;
 }
 
 .js .nav-collapse {
@@ -36,11 +37,13 @@
   display: block;
   overflow: hidden;
   zoom: 1;
+  background-color: $header-footer-bg;
 }
 
 .nav-collapse.opened {
   max-height: 300px;
   position: relative;
+  background-color: $header-footer-bg;
 }
 
 .nav-toggle {

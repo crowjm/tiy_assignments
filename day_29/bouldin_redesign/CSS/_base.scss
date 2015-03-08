@@ -15,6 +15,7 @@ a {
 
 /***header***/
 .logo {
+	float: left;
 	h2 {
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
@@ -175,6 +176,15 @@ a {
 		text-shadow: 2px 2px 18px black, 2px 2px 18px black;
 	}
 }
+
+.about p, .about img {
+	margin-bottom: 1em;
+}
+
+.about img {
+	margin-bottom: 2em;
+}
+
 
 
 
