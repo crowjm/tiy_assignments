@@ -1,0 +1,424 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 800;
+  font-size: 2em; }
+
+h2 {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em; }
+
+h3 {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3em; }
+
+p, a {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em; }
+
+.item-description {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em; }
+
+.item-price {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em; }
+
+h1, h2, h3 {
+  line-height: 1.3; }
+
+p, a {
+  line-height: 1.8; }
+
+span {
+  font-weight: bold; }
+
+.menu-left a, .menu-right a {
+  font-weight: bold;
+  font-size: 1.1em; }
+
+.hours p, .index-menu p, .contact a, .brief-about p, .upcoming-events p {
+  font-size: 1.25em; }
+
+h1, .item-description {
+  color: #0c839e; }
+
+p, .allergies {
+  color: #767b7c; }
+
+h2, h3 {
+  color: #0aaed3; }
+
+.item-price {
+  color: #ffc000; }
+
+a {
+  color: white; }
+
+a:hover {
+  color: #ffc000; }
+
+.hero h1 {
+  color: white; }
+
+header, footer {
+  background-color: #0aaed3; }
+
+.logo h2 {
+  color: white; }
+
+.menu-left a, .menu-right a, .contact a, .index-menu a {
+  color: #0c839e; }
+
+.menu-left a:hover, .menu-right a:hover, .map h3:hover, .contact a:hover, .index-menu a:hover {
+  color: #51d4f2; }
+
+.hours h1, .index-menu h1, .contact h1, .brief-about h1, .upcoming-events h1 {
+  text-shadow: 2px 2px 2px white, 5px 2px 3px #ffc000, 5px 2px 3px #ffc000; }
+
+/*! responsive-nav.js 1.0.34 by @viljamis */
+.responsive-nav {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 50px;
+  width: 75px;
+  text-align: center;
+  padding-top: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #ffc000;
+  position: absolute;
+  top: 0.5em;
+  right: 1.25em; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 300px;
+  position: relative; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+/***global CSS, smallest size***/
+/***universal***/
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1200px; }
+
+a {
+  text-decoration: none; }
+
+/***header***/
+.logo h2 {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em; }
+
+.desktop {
+  display: none; }
+
+/***main page***/
+.hero-main {
+  background-image: url(/IMG/bouldin-mural-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3em; }
+  .hero-main h1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 18px black, 2px 2px 18px black; }
+
+.map {
+  margin-bottom: 4em; }
+  .map img {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    display: block; }
+  .map a {
+    text-align: center; }
+
+.hours, .index-menu, .contact, .brief-about, .upcoming-events {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  border-radius: 5px; }
+
+.hours, .contact, .upcoming-events {
+  background-color: #aeedfb; }
+
+.index-menu, .brief-about {
+  background-color: #fff2cc; }
+
+.hours, .index-menu, .brief-about, .upcoming-events {
+  margin-bottom: 4em; }
+
+.contact {
+  margin-bottom: 4em; }
+  .contact a {
+    display: block; }
+
+.index-menu h1, .hours h1, .contact h1, .brief-about h1, .upcoming-events h1 {
+  margin-bottom: 0.5em; }
+
+/***menu page***/
+.hero-menu {
+  background-image: url(/IMG/bouldin-mural-menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3em; }
+  .hero-menu h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 2px 18px black, 2px 2px 18px black; }
+
+.menu-nav {
+  overflow: hidden;
+  margin-bottom: 6em; }
+
+.menu-left, .menu-right {
+  float: left;
+  width: 48%;
+  text-align: center; }
+
+.menu-left {
+  margin-right: 4%; }
+
+.breakfast-header {
+  text-shadow: 2px 2px 2px white, 5px 2px 3px #ffc000, 5px 2px 3px #ffc000;
+  margin-bottom: 0.5em; }
+
+.breakfast-description {
+  margin-bottom: 3em; }
+
+.menu-description {
+  margin-bottom: 2em; }
+
+.menu-section {
+  margin-bottom: 0.5em; }
+
+.menu-item {
+  margin-bottom: 2em; }
+
+.last-menu-item {
+  margin-bottom: 4em; }
+
+.item-name, .item-price {
+  display: inline-block; }
+
+.allergies {
+  margin-bottom: 2em; }
+
+.item-price {
+  margin-left: 0.5em; }
+
+/***about page***/
+.hero-about {
+  background-image: url(/IMG/bouldin-mural-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3em; }
+  .hero-about h1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 18px black, 2px 2px 18px black; }
+
+/***footer***/
+footer {
+  overflow: hidden; }
+
+footer ul {
+  width: 80%;
+  margin: 0 auto; }
+
+footer li {
+  float: left;
+  width: 20%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-right: 10%; }
+
+@media screen and (min-width: 700px) {
+  /***header***/
+  .responsive-nav {
+    display: none; }
+
+  .desktop {
+    display: block;
+    float: right;
+    width: 50%; }
+    .desktop ul {
+      text-align: right; }
+      .desktop ul li {
+        display: inline-block;
+        margin-right: 7%;
+        padding-top: 1.25em; }
+
+  .logo {
+    float: left;
+    width: 50%; }
+
+  /***main page***/
+  .hero-main h1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 2.5em; }
+
+  .map, .hours, .index-menu, .contact, .brief-about, .upcoming-events {
+    width: 47.5%;
+    float: left; }
+
+  .map, .index-menu, .brief-about {
+    margin-right: 5%; }
+
+  /***menu page***/
+  .menu-left a, .menu-right a {
+    font-weight: bold;
+    font-size: 1.3em; }
+
+  .menu-item {
+    width: 47%;
+    float: left; }
+
+  .menu-item:nth-of-type(even) {
+    margin-right: 6%; }
+
+  .menu-item, .last-menu-item {
+    margin-bottom: 3em; }
+
+  .no-description {
+    margin-bottom: 1em; }
+
+  .allergies, .menu-section {
+    clear: both; } }
+@media screen and (min-width: 950px) {
+  /***main page***/
+  .hero-main h1 {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    font-size: 3em; }
+
+  /***menu page***/
+  .menu-nav {
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+    position: fixed;
+    top: 15.75em;
+    height: 100%; }
+    .menu-nav .menu-left, .menu-nav .menu-right {
+      display: block;
+      float: none;
+      text-align: left;
+      font-size: 1.1em; }
+      .menu-nav .menu-left ul, .menu-nav .menu-right ul {
+        list-style-type: disc; }
+
+  .breakfast {
+    width: 90%;
+    max-width: 800px;
+    float: right; }
+
+  .menu-description, .allergies {
+    width: 90%; }
+
+  .menu-item {
+    width: 40%; }
+
+  .menu-item:nth-of-type(even) {
+    margin-right: 10%; }
+
+  .menu-item, .last-menu-item {
+    margin-bottom: 3.5em; } }
+
+/*# sourceMappingURL=style.css.map */

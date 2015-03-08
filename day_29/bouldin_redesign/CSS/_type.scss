@@ -1,0 +1,83 @@
+@mixin h1 {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 800;
+	font-size: 2em;
+}
+
+@mixin h2 {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+@mixin h3 {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+@mixin p-a {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+@mixin item-description {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1em;
+}
+
+@mixin item-price {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+
+
+h1 {
+	@include h1;
+}
+
+h2 {
+	@include h2;
+}
+
+h3 {
+	@include h3;
+}
+
+p, a {
+	@include p-a;
+}
+
+.item-description {
+	@include item-description;
+}
+
+.item-price {
+	@include item-price;
+}
+
+h1, h2, h3, {
+	line-height: 1.3;
+}
+
+p, a {
+	line-height: 1.8;
+}
+
+span {
+	font-weight: bold;
+}
+
+.menu-left a, .menu-right a {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.hours p, .index-menu p, .contact a, .brief-about p, .upcoming-events p {
+	font-size: 1.25em;
+}

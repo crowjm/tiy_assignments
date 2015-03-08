@@ -1,0 +1,126 @@
+@media screen and (min-width: 700px) {
+/***header***/
+.responsive-nav {
+	display: none;
+}
+
+.desktop {
+	display: block;
+	float: right;
+	width: 50%;
+	ul {
+		text-align: right;
+		li {
+			display: inline-block;
+			margin-right: 7%;
+			padding-top: 1.25em;
+		}
+	}
+}
+
+.logo {
+	float: left;
+	width: 50%;
+}
+
+
+/***main page***/
+.hero-main {
+	h1 {
+		padding-top: 2em;
+		padding-bottom: 2em;
+		font-size: 2.5em;
+	}
+}
+
+.map, .hours, .index-menu, .contact, .brief-about, .upcoming-events {
+	width: 47.5%;
+	float: left;
+}
+
+.map, .index-menu, .brief-about {
+	margin-right: 5%;
+}
+
+/***menu page***/
+.menu-left a, .menu-right a {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.menu-item {
+	width: 47%;
+	float: left;
+}
+
+.menu-item:nth-of-type(even) {
+	margin-right: 6%;
+}
+
+.menu-item, .last-menu-item {
+	margin-bottom: 3em;
+}
+
+.no-description {
+	margin-bottom: 1em;
+}
+
+.allergies, .menu-section {
+	clear: both;
+}
+}
+
+@media screen and (min-width: 950px) {
+/***main page***/
+.hero-main {
+	h1 {
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
+		font-size: 3em;
+	}
+}
+
+
+
+/***menu page***/
+.menu-nav {
+	@include grid(2);
+	float: left;
+	margin-right: $col;
+	position: fixed;
+	top: 15.75em;
+	height: 100%;
+	.menu-left, .menu-right {
+		display: block;
+		float: none;
+		text-align: left;
+		font-size: 1.1em;
+		ul {
+			list-style-type: disc; 
+		}
+	}
+}
+
+.breakfast {
+	@include grid(9);
+	max-width: 800px;
+	float: right;
+}
+
+.menu-description, .allergies {
+	@include grid(9);
+}
+
+.menu-item {
+	@include grid(4);
+}
+
+.menu-item:nth-of-type(even) {
+	margin-right: $col;
+}
+
+.menu-item, .last-menu-item {
+	margin-bottom: 3.5em;
+}
+
+}

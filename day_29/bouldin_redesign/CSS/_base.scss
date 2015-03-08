@@ -1,0 +1,197 @@
+/***global CSS, smallest size***/
+
+/***universal***/
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 1200px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/***header***/
+.logo {
+	h2 {
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+	}
+}
+
+.desktop {
+	display: none;
+}
+
+
+/***main page***/
+.hero-main {
+	background-image: url(/IMG/bouldin-mural-home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 3em;
+	h1 {
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+		text-align: center;
+		font-size: 2em;
+		text-shadow: 2px 2px 18px black, 2px 2px 18px black;
+	}
+}
+
+.map {
+	margin-bottom: 4em;
+	img {
+		width: 100%;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0.5em;
+		border-radius: 5px;
+		display: block;
+	}
+	a {
+		text-align: center;
+	}
+}
+
+.hours, .index-menu, .contact, .brief-about, .upcoming-events {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	border-radius: 5px;
+}
+
+.hours, .contact, .upcoming-events {
+	background-color: lighten($h2-h3, 40%);
+}
+
+.index-menu, .brief-about {
+	background-color: lighten($item-price, 40%);
+}
+
+.hours, .index-menu, .brief-about, .upcoming-events {
+	margin-bottom: 4em;
+}
+
+.contact {
+	margin-bottom: 4em;
+	a {
+		display: block;
+	}
+}
+
+.index-menu h1, .hours h1, .contact h1, .brief-about h1, .upcoming-events h1 {
+	margin-bottom: 0.5em;
+} 
+
+
+/***menu page***/
+.hero-menu {
+	background-image: url(/IMG/bouldin-mural-menu.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 3em;
+	h1 {
+		padding-top: 1em;
+		padding-bottom: 1em;
+		text-align: center;
+		font-size: 4em;
+		text-shadow: 2px 2px 18px black, 2px 2px 18px black;
+	}
+}
+
+.menu-nav {
+	overflow: hidden;
+	margin-bottom: 6em;
+}
+
+.menu-left, .menu-right {
+	float: left;
+	width: 48%;
+	text-align: center;
+}
+
+.menu-left {
+	margin-right: 4%;
+}
+
+.breakfast-header {
+	text-shadow: 2px 2px 2px white, 5px 2px 3px $item-price, 5px 2px 3px $item-price;
+	margin-bottom: 0.5em;
+}
+
+.breakfast-description {
+	margin-bottom: 3em;
+}
+
+.menu-description {
+	margin-bottom: 2em;
+}
+
+.menu-section {
+	margin-bottom: 0.5em;
+}
+
+.menu-item {
+	margin-bottom: 2em;
+}
+
+.last-menu-item {
+	margin-bottom: 4em;
+}
+
+.item-name, .item-price {
+	display: inline-block;
+}
+
+.allergies {
+	margin-bottom: 2em;
+}
+
+.item-price {
+	margin-left: 0.5em;
+}
+
+
+
+/***about page***/
+.hero-about {
+	background-image: url(/IMG/bouldin-mural-about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 3em;
+	h1 {
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+		text-align: center;
+		font-size: 2em;
+		text-shadow: 2px 2px 18px black, 2px 2px 18px black;
+	}
+}
+
+
+
+/***footer***/
+footer {
+	overflow: hidden;
+}
+
+footer ul {
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer li {
+	float: left;
+	width: 20%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-right: 10%;
+}
