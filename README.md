@@ -1,9 +1,11 @@
 #Table of Contents
 
+##Week Seven
+*[Weekend Homework](http://crowjm.github.io/tiy_assignments/day_29/bouldin_redesign)
+
 ##Week Six
 * [Day Twenty-Six Homework](https://github.com/crowjm/tiy_assignments/tree/master/day_26)
 * [Day Twenty-Seven Homework](https://github.com/crowjm/tiy_assignments/tree/master/day_27)
-
 
 ##Week Five
 * [Day Twenty-One Homework, v1](https://github.com/crowjm/tiy_assignments/blob/master/day_21/Bouldin_v1.psd)
