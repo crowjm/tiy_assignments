@@ -60,10 +60,15 @@ h3 {
   font-weight: 600;
   font-size: 1.3em; }
 
-p, a {
+p {
   font-family: "sharik-sans", sans-serif;
   font-weight: 400;
   font-size: 1.1em; }
+
+a {
+  font-family: "sharik-sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em; }
 
 .item-description {
   font-family: "sharik-sans", sans-serif;
@@ -129,17 +134,18 @@ header, footer {
   float: right;
   margin-top: 1.2em; }
 
+.responsive-nav a:hover {
+  color: white; }
+
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: block;
-  background-color: #0aaed3; }
+  display: block; }
 
 .nav-collapse li {
   width: 100%;
-  display: block;
-  background-color: #0aaed3; }
+  display: block; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -148,12 +154,12 @@ header, footer {
   display: block;
   overflow: hidden;
   zoom: 1;
+  margin-top: 0.1em;
   background-color: #0aaed3; }
 
 .nav-collapse.opened {
   max-height: 300px;
-  position: relative;
-  background-color: #0aaed3; }
+  position: relative; }
 
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
@@ -324,7 +330,8 @@ img {
   margin-top: 2em;
   display: block;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  max-width: 800px; }
 
 .about .last-item {
   margin-bottom: 4em; }
@@ -341,8 +348,7 @@ footer li {
   float: left;
   width: 20%;
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  margin-right: 10%; }
+  padding-bottom: 0.5em; }
 
 @media screen and (min-width: 700px) {
   /***header***/
@@ -364,11 +370,15 @@ footer li {
     float: left;
     width: 50%; }
 
+  /***footer***/
+  footer li {
+    width: 10%; }
+
   /***main page***/
   .hero-main h1 {
     padding-top: 2em;
     padding-bottom: 2em;
-    font-size: 2.5em; }
+    font-size: 3em; }
 
   .map, .hours, .index-menu, .strongman, .contact, .upcoming-events, .brief-about, .coffeebar, .happy-cow, .seating {
     height: 400px;
@@ -385,13 +395,13 @@ footer li {
     padding-right: 1em; }
 
   .index-menu, .happy-cow {
-    background-color: #34d2f5; }
+    background-color: #4cd7f7; }
 
   .hours, .brief-about {
-    background-color: #0e97b6; }
+    background-color: #10aacd; }
 
-  .contact, .upcoming-events {
-    background-color: #ffd34d; }
+  .contact, .upcoming-events, .map {
+    background-color: #ffd557; }
 
   .map, .brief-about {
     width: 60%; }
@@ -402,10 +412,21 @@ footer li {
   .index-menu, .strongman, .contact, .coffeebar, .happy-cow, .seating {
     width: 33.333%; }
 
+  .hours p, .index-menu p, .brief-about p, .happy-cow p {
+    color: white; }
+
+  .index-menu a:hover, .happy-cow a:hover, .contact a:hover, .map h3:hover {
+    color: white; }
+
+  .index-menu h1, .contact h1, .upcoming-events h1, .happy-cow h1 {
+    text-shadow: 3px 2px 2px white, 3px 2px 2px white; }
+
+  .hours h1, .brief-about h1 {
+    text-shadow: 3px 2px 2px white, -3px -2px 2px white; }
+
   /***menu page***/
   .menu-left a, .menu-right a {
-    font-weight: bold;
-    font-size: 1.3em; }
+    font-weight: bold; }
 
   .menu-item {
     width: 47%;
@@ -427,7 +448,7 @@ footer li {
   .hero-about h1 {
     padding-top: 2em;
     padding-bottom: 2em;
-    font-size: 2.5em; } }
+    font-size: 3em; } }
 @media screen and (min-width: 950px) {
   /***main page***/
   .hero-main h1 {
@@ -443,18 +464,20 @@ footer li {
       width: 75%; }
 
   /***menu page***/
+  .hero-menu h1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em; }
+
   .menu-nav {
     width: 20%;
     float: left;
     margin-right: 10%;
-    position: fixed;
-    top: 15.75em;
-    height: 100%; }
+    position: absolute;
+    height: 500px; }
     .menu-nav .menu-left, .menu-nav .menu-right {
       display: block;
       float: none;
-      text-align: left;
-      font-size: 1.1em; }
+      text-align: left; }
       .menu-nav .menu-left ul, .menu-nav .menu-right ul {
         list-style-type: disc; }
 
@@ -473,6 +496,10 @@ footer li {
     margin-right: 10%; }
 
   .menu-item, .last-menu-item {
-    margin-bottom: 3.5em; } }
+    margin-bottom: 3.5em; }
+
+  /***about page***/
+  .hero-about h1 {
+    font-size: 3.5em; } }
 
 /*# sourceMappingURL=style.css.map */

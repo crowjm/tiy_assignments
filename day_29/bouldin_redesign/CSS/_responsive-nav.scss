@@ -6,18 +6,20 @@
   margin-top: 1.2em;
 }
 
+.responsive-nav a:hover {
+  color: $white;
+}
+
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
   display: block;
-  background-color: $brightblue;
   }
 
 .nav-collapse li {
   width: 100%;
   display: block;
-  background-color: $brightblue;
 }
 
 .js .nav-collapse {
@@ -27,13 +29,13 @@
   display: block;
   overflow: hidden;
   zoom: 1;
+  margin-top: 0.1em;
   background-color: $brightblue;
 }
 
 .nav-collapse.opened {
   max-height: 300px;
   position: relative;
-  background-color: $brightblue;
 }
 
 .nav-toggle {

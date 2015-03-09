@@ -16,10 +16,16 @@
 	font-size: 1.3em;
 }
 
-@mixin p-a {
+@mixin p {
 	font-family: "sharik-sans", sans-serif;
 	font-weight: 400;
 	font-size: 1.1em;
+}
+
+@mixin a {
+	font-family: "sharik-sans", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
 }
 
 @mixin item-description {
@@ -49,8 +55,12 @@ h3 {
 	@include h3;
 }
 
-p, a {
-	@include p-a;
+p {
+	@include p;
+}
+
+a {
+	@include a;
 }
 
 .item-description {

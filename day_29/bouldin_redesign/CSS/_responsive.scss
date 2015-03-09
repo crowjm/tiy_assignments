@@ -24,12 +24,18 @@
 }
 
 
+/***footer***/
+footer li {
+	width: 10%;
+}
+
+
 /***main page***/
 .hero-main {
 	h1 {
 		padding-top: 2em;
 		padding-bottom: 2em;
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 }
 
@@ -50,15 +56,15 @@
 }
 
 .index-menu, .happy-cow {
-	background-color: lighten($brightblue, 15%);
+	background-color: lighten($brightblue, 20%);
 }
 
 .hours, .brief-about {
-	background-color: lighten($teal, 5%);
+	background-color: lighten($teal, 10%);
 }
 
-.contact, .upcoming-events {
-	background-color: lighten($yellow, 15%);
+.contact, .upcoming-events, .map {
+	background-color: lighten($yellow, 17%);
 }
 
 .map, .brief-about {
@@ -73,6 +79,22 @@
 	width: 33.333%;
 }
 
+.hours p, .index-menu p, .brief-about p, .happy-cow p, {
+	color: white;
+}
+
+.index-menu a:hover, .happy-cow a:hover, .contact a:hover, .map h3:hover {
+	color: white;
+}
+
+.index-menu h1, .contact h1, .upcoming-events h1, .happy-cow h1 {
+	text-shadow: 3px 2px 2px white, 3px 2px 2px white;
+}
+
+.hours h1, .brief-about h1 {
+	text-shadow: 3px 2px 2px white, -3px -2px 2px white;
+}
+
 
 
 
@@ -80,7 +102,6 @@
 /***menu page***/
 .menu-left a, .menu-right a {
 	font-weight: bold;
-	font-size: 1.3em;
 }
 
 .menu-item {
@@ -110,7 +131,7 @@
 	h1 {
 		padding-top: 2em;
 		padding-bottom: 2em;
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 }
 
@@ -138,18 +159,23 @@
 
 
 /***menu page***/
+.hero-menu {
+	h1 {
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+	}
+}
+
 .menu-nav {
 	@include grid(2);
 	float: left;
 	margin-right: $col;
-	position: fixed;
-	top: 15.75em;
-	height: 100%;
+	position: absolute;
+	height: 500px;
 	.menu-left, .menu-right {
 		display: block;
 		float: none;
 		text-align: left;
-		font-size: 1.1em;
 		ul {
 			list-style-type: disc; 
 		}
@@ -176,6 +202,13 @@
 
 .menu-item, .last-menu-item {
 	margin-bottom: 3.5em;
+}
+
+/***about page***/
+.hero-about {
+	h1 {
+		font-size: 3.5em;
+	}
 }
 
 }
