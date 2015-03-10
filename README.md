@@ -1,7 +1,9 @@
 #Table of Contents
 
 ##Week Seven
-*[Weekend Homework](http://crowjm.github.io/tiy_assignments/day_29/bouldin_redesign)
+* [Weekend Homework](http://crowjm.github.io/tiy_assignments/day_29/bouldin_redesign)
+* [Day Thirty-Two Homework, v1](https://github.com/crowjm/tiy_assignments/blob/master/day_32/ZenCSS_StyleTile1.psd)
+* [Day Thirty-Two Homework, v2](https://github.com/crowjm/tiy_assignments/blob/master/day_32/ZenCSS_StyleTile2.psd)
 
 ##Week Six
 * [Day Twenty-Six Homework](https://github.com/crowjm/tiy_assignments/tree/master/day_26)
