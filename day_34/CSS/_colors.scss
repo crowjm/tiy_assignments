@@ -1,0 +1,113 @@
+$black: rgb(0,0,0);
+$green: rgb(0,155,74);
+$blue: rgb(56,164,216);
+$yellow: rgb(240,213,72);
+$red: rgb(241,3,35);
+$black-transparent: rgba(0,0,0,0.4);
+$green-transparent: rgba(0,155,74,0.4);
+$blue-transparent: rgba(56,164,216,0.4);
+$yellow-transparent: rgba(240,213,72,0.4);
+$red-transparent: rgba(241,3,35,0.4);
+$black-super-transparent: rgba(0,0,0,0.15);
+$green-super-transparent: rgba(0,155,74,0.15);
+$blue-super-transparent: rgba(56,164,216,0.15);
+$yellow-super-transparent: rgba(240,213,72,0.15);
+$red-super-transparent: rgba(241,3,35,0.15);
+
+
+/***general***/
+a {
+	color: $blue;
+}
+
+a:hover {
+	color: darken($blue, 20%);
+}
+
+/***main content***/
+.preamble::before {
+	border: 5px solid $blue;
+}
+
+.preamble {
+	background-color: $blue-super-transparent;
+}
+
+.explanation::before {
+	border: 5px solid $black;
+}
+
+.explanation {
+	background-color: $black-super-transparent;
+}
+
+.participation::before {
+	border: 5px solid $red;
+}
+
+.participation {
+	background-color: $red-super-transparent;
+}
+
+.benefits::before {
+	border: 5px solid darken($yellow, 10%);
+}
+
+.benefits {
+	background-color: darken($yellow-super-transparent, 10%);
+}
+
+.requirements::before {
+	border: 5px solid $green;
+}
+
+.requirements {
+	background-color: $green-super-transparent;
+}
+
+/***footer***/
+.zen-validate-html {
+	background-color: $blue-transparent;
+}
+
+.zen-validate-css {
+	background-color: $black-transparent;
+}
+
+.zen-license {
+	background-color: $red-transparent;
+}
+
+.zen-accessibility {
+	background-color: $yellow-transparent;
+}
+
+.zen-github {
+	background-color: $green-transparent;
+}
+
+
+/***sidebar***/
+.design-selection::before {
+	border: 5px solid $red;
+}
+
+.design-selection {
+	background-color: $red-super-transparent;
+}
+
+.design-archives::before {
+	border: 5px solid darken($yellow, 10%);
+}
+
+.design-archives {
+	background-color: darken($yellow-super-transparent, 10%);
+}
+
+.zen-resources::before {
+	border: 5px solid $green;
+}
+
+.zen-resources {
+	background-color: $green-super-transparent;
+}
