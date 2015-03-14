@@ -90,6 +90,8 @@ a:hover {
 
 .preamble {
   background-color: rgba(56, 164, 216, 0.15); }
+  .preamble h3 {
+    color: #38a4d8; }
 
 .explanation::before {
   border: 5px solid black; }
@@ -102,18 +104,24 @@ a:hover {
 
 .participation {
   background-color: rgba(241, 3, 35, 0.15); }
+  .participation h3 {
+    color: #f10323; }
 
 .benefits::before {
   border: 5px solid #ecca19; }
 
 .benefits {
   background-color: rgba(236, 202, 25, 0.15); }
+  .benefits h3 {
+    color: #ecca19; }
 
 .requirements::before {
   border: 5px solid #009b4a; }
 
 .requirements {
   background-color: rgba(0, 155, 74, 0.15); }
+  .requirements h3 {
+    color: #009b4a; }
 
 /***footer***/
 .zen-validate-html {
@@ -137,23 +145,29 @@ a:hover {
 
 .design-selection {
   background-color: rgba(241, 3, 35, 0.15); }
+  .design-selection h3 {
+    color: #f10323; }
 
 .design-archives::before {
   border: 5px solid #ecca19; }
 
 .design-archives {
   background-color: rgba(236, 202, 25, 0.15); }
+  .design-archives h3 {
+    color: #ecca19; }
 
 .zen-resources::before {
   border: 5px solid #009b4a; }
 
 .zen-resources {
   background-color: rgba(0, 155, 74, 0.15); }
+  .zen-resources h3 {
+    color: #009b4a; }
 
 /***CSS for global***/
 /***universal***/
 .page-wrapper {
-  width: 85%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto; }
 
@@ -166,18 +180,21 @@ h1 {
   letter-spacing: 6px; }
 
 h2 {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
 
 .summary {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
 
 /***main content***/
 .preamble, .explanation, .participation, .benefits, .requirements {
-  margin-bottom: 4rem;
   box-sizing: border-box;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
   padding-top: 1rem;
-  padding-right: 1rem;
+  padding-right: 2.5rem;
   padding-bottom: 1rem; }
 
 .preamble::before, .participation::before, .requirements::before {
@@ -218,7 +235,13 @@ h2 {
 
 /***footer***/
 footer {
-  margin-bottom: 4rem; }
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%; }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
   padding-top: 1rem;
@@ -239,11 +262,10 @@ footer {
 
 .design-selection, .zen-resources {
   box-sizing: border-box;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
   padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 4rem; }
+  padding-right: 2.5rem;
+  padding-bottom: 1rem; }
   .design-selection h3, .zen-resources h3 {
     margin-bottom: 1rem;
     float: left;
@@ -264,13 +286,11 @@ footer {
   margin-right: 1rem; }
 
 .design-archives {
-  margin-bottom: 4rem;
   box-sizing: border-box;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
   padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 4rem; }
+  padding-right: 2.5rem;
+  padding-bottom: 1rem; }
   .design-archives h3 {
     margin-bottom: 1rem;
     float: right;

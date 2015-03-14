@@ -31,6 +31,9 @@ a:hover {
 
 .preamble {
 	background-color: $blue-super-transparent;
+	h3 {
+		color: $blue;
+	}
 }
 
 .explanation::before {
@@ -47,6 +50,9 @@ a:hover {
 
 .participation {
 	background-color: $red-super-transparent;
+	h3 {
+		color: $red;
+	}
 }
 
 .benefits::before {
@@ -55,6 +61,9 @@ a:hover {
 
 .benefits {
 	background-color: darken($yellow-super-transparent, 10%);
+	h3 {
+		color: darken($yellow, 10%);
+	}
 }
 
 .requirements::before {
@@ -63,6 +72,9 @@ a:hover {
 
 .requirements {
 	background-color: $green-super-transparent;
+	h3 {
+		color: $green;
+	}
 }
 
 /***footer***/
@@ -94,6 +106,9 @@ a:hover {
 
 .design-selection {
 	background-color: $red-super-transparent;
+	h3 {
+		color: $red;
+	}
 }
 
 .design-archives::before {
@@ -102,6 +117,9 @@ a:hover {
 
 .design-archives {
 	background-color: darken($yellow-super-transparent, 10%);
+	h3 {
+		color: darken($yellow, 10%);
+	}
 }
 
 .zen-resources::before {
@@ -110,4 +128,7 @@ a:hover {
 
 .zen-resources {
 	background-color: $green-super-transparent;
+	h3 {
+		color: $green;
+	}
 }
