@@ -5,6 +5,7 @@
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	max-width: 750px;
 }
 
 
@@ -16,6 +17,10 @@ h1 {
 	text-align: center;
 	text-shadow: 2px -2px 0px $yellow, 4px -4px 0px $blue, 6px -6px 0px $red, 8px -8px 0px $green;  
 	letter-spacing: 6px;
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -33,14 +38,6 @@ h2 {
 
 
 /***main content***/
-.preamble, .explanation, .participation, .benefits, .requirements {
-	box-sizing: border-box;
-	padding-left: 2.5rem;
-	padding-top: 1rem;
-	padding-right: 2.5rem;
-	padding-bottom: 1rem;
-}
-
 .preamble::before, .participation::before, .requirements::before {
 	border-radius: 50%;
 	height: 75px;
@@ -51,7 +48,48 @@ h2 {
 	float: right;
 }
 
-.preamble, .participation, .requirements {
+.preamble {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		float: left;
+		width: 67%;
+	}
+	p {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.participation {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		float: left;
+		width: 67%;
+	}
+	p {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.requirements {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
 	h3 {
 		margin-bottom: 1rem;
 		margin-right: 0.5rem;
@@ -74,7 +112,30 @@ h2 {
 	float: left;
 }
 
-.explanation, .benefits {
+.explanation {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-left: 0.5rem;
+		float: right;
+		width: 67%;
+	}
+	p {
+		margin-bottom: 0.5rem;
+		clear: both;
+	}
+}
+
+.benefits {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
 	h3 {
 		margin-bottom: 1rem;
 		margin-left: 0.5rem;
@@ -98,6 +159,7 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 	width: 85%;
+	text-align: center;
 }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
@@ -125,16 +187,16 @@ footer {
 .design-selection, .zen-resources {
 	box-sizing: border-box;
 	padding-left: 2.5rem;
-	padding-top: 1rem;
+	padding-top: 2rem;
 	padding-right: 2.5rem;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 	h3 {
 		margin-bottom: 1rem;
 		float: left;
 		width: 67%;
 		margin-right: 0.5rem;
 	}
-	.navigation {
+	nav, ul {
 		clear: both;
 		margin-bottom: 0.5rem;
 	}
@@ -154,17 +216,16 @@ footer {
 .design-archives{
 	box-sizing: border-box;
 	padding-left: 2.5rem;
-	padding-top: 1rem;
+	padding-top: 2rem;
 	padding-right: 2.5rem;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 	h3 {
 		margin-bottom: 1rem;
 		float: right;
 		width: 67%;
 	}
-	.navigation {
+	nav {
 		clear: both;
 		margin-bottom: 0.5rem;
-		margin-left: 6rem;
 	}
 }

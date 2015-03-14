@@ -1,0 +1,512 @@
+@media screen and (min-width: 700px) {
+/***header***/
+// header::before {
+//   color: $green;
+//   content: "CSS Zen Garden";
+//   font-size: 75px;
+//   font-weight: bold;
+// }
+
+// h1 {
+//   content: "CSS Zen Garden";
+//   color: $blue;
+//   font-size: 75px;
+// }
+
+//   h1::before {
+//   color: $red;
+//   content: "CSS Zen Garden";
+//   font-size: 75px;
+// }
+
+//   h1::after {
+//   content: "CSS Zen Garden";
+//   color: $yellow;
+//   font-size: 75px;
+// }
+
+// h2::before {
+//   content: "CSS Zen Garden";
+//   font-size: 75px;
+//   position: absolute;
+//   top: 20px;
+//   left: 20px;
+// }
+
+h2 {
+   text-align: center; 
+}
+
+.summary {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3em;
+}
+
+
+
+/***main content***/
+.explanation::before, .benefits::before, .preamble::before, .participation::before, .requirements::before {
+	display: none;
+}
+
+.preamble {
+  h3 {
+    float: none;
+    width: 100%;
+    font-size: 2rem;
+  }
+  p:nth-of-type(1) {
+	  width: 330px;
+	  height: 330px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  margin-right: auto;
+	  margin-left: auto;
+	  border: 25px solid $blue;
+	  padding: 3em;
+	  float: left;
+	  margin-top: 4rem;
+  }
+ p:nth-of-type(1)::after {
+    content: "";
+    background-color: $blue-transparent;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -268px;
+    margin-left: -55px;
+  }
+  p:nth-of-type(2) {
+	  width: 330px;
+	  height: 330px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  margin-right: auto;
+	  margin-left: auto;
+	  border: 25px solid $blue;
+	  padding: 3em;
+	  display: inline-block;
+	  float: right;
+  }
+ p:nth-of-type(2)::after {
+    content: "";
+    background-color: $blue-transparent;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -268px;
+    margin-left: -55px;
+  }
+  p:nth-of-type(3) {
+	  width: 370px;
+	  height: 370px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  margin-right: auto;
+	  margin-left: auto;
+	  border: 25px solid $blue;
+	  padding: 3em;
+	  float: left;
+	  margin-bottom: 4rem;
+  }
+ p:nth-of-type(3)::after {
+    content: "";
+    background-color: $blue-transparent;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -297px;
+    margin-left: -55px;
+  }
+}
+
+.explanation {
+	clear: both;
+   h3 {
+    float: none;
+    width: 100%;
+    font-size: 2rem;
+  }
+p:nth-of-type(1) {
+	  width: 445px;
+	  height: 445px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  margin-right: auto;
+	  margin-left: auto;
+	  border: 25px solid $black;
+	  padding: 3.6em;
+	  float: left;
+	  margin-top: 4rem;
+  }
+ p:nth-of-type(1)::after {
+    content: "";
+    background-color: $black-transparent;
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -362px;
+    margin-left: -64px;
+  }
+  p:nth-of-type(2) {
+	  width: 455px;
+	  height: 455px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  margin-right: auto;
+	  margin-left: auto;
+	  border: 25px solid $black;
+	  padding: 3.6em;
+	  float: right;
+	  margin-bottom: 4rem;
+  }
+ p:nth-of-type(2)::after {
+    content: "";
+    background-color: $black-transparent;
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -362px;
+    margin-left: -64px;
+  }
+}
+
+.participation {
+	clear: both;
+  h3 {
+    float: none;
+    width: 100%;
+    font-size: 2rem;
+  }
+p:nth-of-type(1) {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $red;
+    padding: 3.3rem;
+    float: left;
+    margin-top: 4rem;
+  }
+ p:nth-of-type(1)::after {
+    content: "";
+    background-color: $red-transparent;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -325px;
+    margin-left: -55px;
+  }
+  p:nth-of-type(2) {
+    width: 365px;
+    height: 365px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $red;
+    padding: 3em;
+    float: right;
+  }
+ p:nth-of-type(2)::after {
+    content: "";
+    background-color: $red-transparent;
+    width: 365px;
+    height: 365px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -296px;
+    margin-left: -55px;
+  }
+  p:nth-of-type(3) {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $red;
+    padding: 3.5rem;
+    float: left;
+    margin-bottom: 4rem;
+  }
+ p:nth-of-type(3)::after {
+    content: "";
+    background-color: $red-transparent;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -360px;
+    margin-left: -57px;
+  }
+}
+
+.benefits {
+  clear: both;
+  h3 {
+    float: none;
+    width: 100%;
+    font-size: 2rem;
+  }
+  p {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid darken($yellow, 10%);
+    padding: 4rem;
+    float: left;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+   p::after {
+    content: "";
+    background-color: darken($yellow-transparent, 10%);
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -355px;
+    margin-left: -66px;
+  }
+}
+
+.requirements {
+  clear: both;
+   h3 {
+    float: none;
+    width: 100%;
+    font-size: 2rem;
+  }
+  p:nth-of-type(1) {
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $green;
+    padding: 4rem;
+    float: left;
+    margin-top: 4rem;
+  }
+   p:nth-of-type(1)::after {
+    content: "";
+    background-color: $green-transparent;
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -366px;
+    margin-left: -66px;
+  }
+  p:nth-of-type(2) {
+    width: 555px;
+    height: 555px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $green;
+    padding: 4.75rem;
+    float: right;
+  }
+   p:nth-of-type(2)::after {
+    content: "";
+    background-color: $green-transparent;
+    width: 555px;
+    height: 555px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -432px;
+    margin-left: -78px;
+  }
+  p:nth-of-type(3) {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $green;
+    padding: 4rem;
+    float: left;
+  }
+   p:nth-of-type(3)::after {
+    content: "";
+    background-color: $green-transparent;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -344px;
+    margin-left: -68px;
+  }
+  p:nth-of-type(4) {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $green;
+    padding: 4rem;
+    float: right;
+  }
+   p:nth-of-type(4)::after {
+    content: "";
+    background-color: $green-transparent;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -340px;
+    margin-left: -70px;
+  }
+  p:nth-of-type(5) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $green;
+    padding: 2.5rem;
+    float: left;
+    margin-bottom: 4rem;
+  }
+   p:nth-of-type(5)::after {
+    content: "";
+    background-color: $green-transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -233px;
+    margin-left: -50px;
+  }
+}
+
+
+/***footer***/
+footer {
+  clear: both;
+}
+
+
+/***sidebar***/
+.design-archives::before, .design-selection::before, .zen-resources::before {
+  display: none;
+}
+
+.design-selection {
+   h3 {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+  nav {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $red;
+    padding: 3.3rem;
+    float: left;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+nav::after {
+    content: "";
+    background-color: $red-transparent;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -338px;
+    margin-left: -55px;
+  }
+}
+
+.design-archives {
+  clear: both;
+   h3 {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+  nav {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid darken($yellow, 10%);
+    padding: 3.3rem;
+    float: right;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+nav::after {
+    content: "";
+    background-color: darken($yellow-transparent, 10%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -190px;
+    margin-left: -62px;
+  }
+}
+
+.zen-resources {
+  clear: both;
+  h3 {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+  ul {
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    border: 25px solid $green;
+    padding: 2.5rem;
+    float: left;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+ul::after {
+    content: "";
+    background-color: $green-transparent;
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -230px;
+    margin-left: -50px;
+  }
+}
+}
