@@ -38,7 +38,7 @@ h2 {
 }
 
 .summary {
-  max-width: 700px;
+  max-width: 650px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 3em;
@@ -55,7 +55,7 @@ h2 {
   h3 {
     float: none;
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
   }
   p:nth-of-type(1) {
 	  width: 330px;
@@ -65,18 +65,18 @@ h2 {
 	  margin-right: auto;
 	  margin-left: auto;
 	  border: 25px solid $blue;
-	  padding: 3em;
+	  padding: 2.9rem;
 	  float: left;
 	  margin-top: 4rem;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: $blue-transparent;
+    background-color: $blue-super-transparent;
     width: 330px;
     height: 330px;
     border-radius: 50%;
     display: block; 
-    margin-top: -268px;
+    margin-top: -240px;
     margin-left: -55px;
   }
   p:nth-of-type(2) {
@@ -87,13 +87,13 @@ h2 {
 	  margin-right: auto;
 	  margin-left: auto;
 	  border: 25px solid $blue;
-	  padding: 3em;
+	  padding: 2.6rem;
 	  display: inline-block;
 	  float: right;
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: $blue-transparent;
+    background-color: $blue-super-transparent;
     width: 330px;
     height: 330px;
     border-radius: 50%;
@@ -115,7 +115,7 @@ h2 {
   }
  p:nth-of-type(3)::after {
     content: "";
-    background-color: $blue-transparent;
+    background-color: $blue-super-transparent;
     width: 370px;
     height: 370px;
     border-radius: 50%;
@@ -130,28 +130,28 @@ h2 {
    h3 {
     float: none;
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
   }
 p:nth-of-type(1) {
-	  width: 445px;
-	  height: 445px;
+	  width: 450px;
+	  height: 450px;
 	  border-radius: 50%;
 	  box-sizing: border-box;
 	  margin-right: auto;
 	  margin-left: auto;
 	  border: 25px solid $black;
-	  padding: 3.6em;
-	  float: left;
+	  padding: 4rem;
+	  float: right;
 	  margin-top: 4rem;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: $black-transparent;
-    width: 445px;
-    height: 445px;
+    background-color: $black-super-transparent;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     display: block; 
-    margin-top: -362px;
+    margin-top: -370px;
     margin-left: -64px;
   }
   p:nth-of-type(2) {
@@ -162,13 +162,13 @@ p:nth-of-type(1) {
 	  margin-right: auto;
 	  margin-left: auto;
 	  border: 25px solid $black;
-	  padding: 3.6em;
-	  float: right;
+	  padding: 3.75rem;
+	  float: left;
 	  margin-bottom: 4rem;
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: $black-transparent;
+    background-color: $black-super-transparent;
     width: 455px;
     height: 455px;
     border-radius: 50%;
@@ -183,72 +183,72 @@ p:nth-of-type(1) {
   h3 {
     float: none;
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
   }
 p:nth-of-type(1) {
-    width: 430px;
-    height: 430px;
+    width: 440px;
+    height: 440px;
     border-radius: 50%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
     border: 25px solid $red;
-    padding: 3.3rem;
-    float: left;
+    padding: 3.6rem;
+    float: right;
     margin-top: 4rem;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: $red-transparent;
-    width: 430px;
-    height: 430px;
+    background-color: $red-super-transparent;
+    width: 440px;
+    height: 440px;
     border-radius: 50%;
     display: block; 
-    margin-top: -325px;
-    margin-left: -55px;
+    margin-top: -333px;
+    margin-left: -63px;
   }
   p:nth-of-type(2) {
-    width: 365px;
-    height: 365px;
+    width: 370px;
+    height: 370px;
     border-radius: 50%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
     border: 25px solid $red;
-    padding: 3em;
-    float: right;
+    padding: 3.2rem;
+    float: left;
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: $red-transparent;
-    width: 365px;
-    height: 365px;
+    background-color: $red-super-transparent;
+    width: 370px;
+    height: 370px;
     border-radius: 50%;
     display: block; 
     margin-top: -296px;
     margin-left: -55px;
   }
   p:nth-of-type(3) {
-    width: 440px;
-    height: 440px;
+    width: 460px;
+    height: 460px;
     border-radius: 50%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
     border: 25px solid $red;
-    padding: 3.5rem;
-    float: left;
+    padding: 3.8rem;
+    float: right;
     margin-bottom: 4rem;
   }
  p:nth-of-type(3)::after {
     content: "";
-    background-color: $red-transparent;
-    width: 440px;
-    height: 440px;
+    background-color: $red-super-transparent;
+    width: 460px;
+    height: 460px;
     border-radius: 50%;
     display: block; 
     margin-top: -360px;
-    margin-left: -57px;
+    margin-left: -64px;
   }
 }
 
@@ -257,7 +257,7 @@ p:nth-of-type(1) {
   h3 {
     float: none;
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
   }
   p {
     width: 440px;
@@ -267,20 +267,20 @@ p:nth-of-type(1) {
     margin-right: auto;
     margin-left: auto;
     border: 25px solid darken($yellow, 10%);
-    padding: 4rem;
+    padding: 3.8rem;
     float: left;
     margin-bottom: 4rem;
     margin-top: 4rem;
   }
    p::after {
     content: "";
-    background-color: darken($yellow-transparent, 10%);
-    width: 430px;
-    height: 430px;
+    background-color: darken($yellow-super-transparent, 10%);
+    width: 440px;
+    height: 440px;
     border-radius: 50%;
     display: block; 
-    margin-top: -355px;
-    margin-left: -66px;
+    margin-top: -338px;
+    margin-left: -61px;
   }
 }
 
@@ -289,7 +289,7 @@ p:nth-of-type(1) {
    h3 {
     float: none;
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
   }
   p:nth-of-type(1) {
     width: 455px;
@@ -300,12 +300,12 @@ p:nth-of-type(1) {
     margin-left: auto;
     border: 25px solid $green;
     padding: 4rem;
-    float: left;
+    float: right;
     margin-top: 4rem;
   }
    p:nth-of-type(1)::after {
     content: "";
-    background-color: $green-transparent;
+    background-color: $green-super-transparent;
     width: 455px;
     height: 455px;
     border-radius: 50%;
@@ -322,11 +322,11 @@ p:nth-of-type(1) {
     margin-left: auto;
     border: 25px solid $green;
     padding: 4.75rem;
-    float: right;
+    float: left;
   }
    p:nth-of-type(2)::after {
     content: "";
-    background-color: $green-transparent;
+    background-color: $green-super-transparent;
     width: 555px;
     height: 555px;
     border-radius: 50%;
@@ -343,11 +343,11 @@ p:nth-of-type(1) {
     margin-left: auto;
     border: 25px solid $green;
     padding: 4rem;
-    float: left;
+    float: right;
   }
    p:nth-of-type(3)::after {
     content: "";
-    background-color: $green-transparent;
+    background-color: $green-super-transparent;
     width: 420px;
     height: 420px;
     border-radius: 50%;
@@ -364,11 +364,11 @@ p:nth-of-type(1) {
     margin-left: auto;
     border: 25px solid $green;
     padding: 4rem;
-    float: right;
+    float: left;
   }
    p:nth-of-type(4)::after {
     content: "";
-    background-color: $green-transparent;
+    background-color: $green-super-transparent;
     width: 430px;
     height: 430px;
     border-radius: 50%;
@@ -385,12 +385,12 @@ p:nth-of-type(1) {
     margin-left: auto;
     border: 25px solid $green;
     padding: 2.5rem;
-    float: left;
+    float: right;
     margin-bottom: 4rem;
   }
    p:nth-of-type(5)::after {
     content: "";
-    background-color: $green-transparent;
+    background-color: $green-super-transparent;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -415,9 +415,10 @@ footer {
 .design-selection {
    h3 {
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
+    float: none;
   }
   nav {
     width: 430px;
@@ -427,14 +428,14 @@ footer {
     margin-right: auto;
     margin-left: auto;
     border: 25px solid $red;
-    padding: 3.3rem;
+    padding: 3.5rem;
     float: left;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
 nav::after {
     content: "";
-    background-color: $red-transparent;
+    background-color: $red-super-transparent;
     width: 430px;
     height: 430px;
     border-radius: 50%;
@@ -448,9 +449,10 @@ nav::after {
   clear: both;
    h3 {
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
+    float: none;
   }
   nav {
     width: 250px;
@@ -460,19 +462,19 @@ nav::after {
     margin-right: auto;
     margin-left: auto;
     border: 25px solid darken($yellow, 10%);
-    padding: 3.3rem;
+    padding: 2.3rem;
     float: right;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
 nav::after {
     content: "";
-    background-color: darken($yellow-transparent, 10%);
+    background-color: darken($yellow-super-transparent, 10%);
     width: 250px;
     height: 250px;
     border-radius: 50%;
     display: block; 
-    margin-top: -190px;
+    margin-top: -120px;
     margin-left: -62px;
   }
 }
@@ -481,9 +483,10 @@ nav::after {
   clear: both;
   h3 {
     width: 100%;
-    font-size: 2rem;
+    text-align: center;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
+    float: none;
   }
   ul {
     width: 295px;
@@ -500,7 +503,7 @@ nav::after {
   }
 ul::after {
     content: "";
-    background-color: $green-transparent;
+    background-color: $green-super-transparent;
     width: 295px;
     height: 295px;
     border-radius: 50%;
