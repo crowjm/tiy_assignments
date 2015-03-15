@@ -395,8 +395,6 @@ footer {
     height: 330px;
     border-radius: 50%;
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
     border: 25px solid #38a4d8;
     padding: 2.9rem;
     float: left;
@@ -415,8 +413,6 @@ footer {
     height: 330px;
     border-radius: 50%;
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
     border: 25px solid #38a4d8;
     padding: 2.6rem;
     display: inline-block;
@@ -435,8 +431,6 @@ footer {
     height: 370px;
     border-radius: 50%;
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
     border: 25px solid #38a4d8;
     padding: 3em;
     float: left;
@@ -462,8 +456,6 @@ footer {
       height: 450px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid black;
       padding: 4rem;
       float: right;
@@ -482,8 +474,6 @@ footer {
       height: 455px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid black;
       padding: 3.75rem;
       float: left;
@@ -509,8 +499,6 @@ footer {
       height: 440px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #f10323;
       padding: 3.6rem;
       float: right;
@@ -529,8 +517,6 @@ footer {
       height: 370px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #f10323;
       padding: 3.2rem;
       float: left; }
@@ -548,8 +534,6 @@ footer {
       height: 460px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #f10323;
       padding: 3.8rem;
       float: right;
@@ -575,8 +559,6 @@ footer {
       height: 440px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #ecca19;
       padding: 3.8rem;
       float: left;
@@ -603,8 +585,6 @@ footer {
       height: 455px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #009b4a;
       padding: 4rem;
       float: right;
@@ -623,8 +603,6 @@ footer {
       height: 555px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #009b4a;
       padding: 4.75rem;
       float: left; }
@@ -642,8 +620,6 @@ footer {
       height: 420px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #009b4a;
       padding: 4rem;
       float: right; }
@@ -661,8 +637,6 @@ footer {
       height: 430px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #009b4a;
       padding: 4rem;
       float: left; }
@@ -680,8 +654,6 @@ footer {
       height: 300px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #009b4a;
       padding: 2.5rem;
       float: right;
@@ -715,8 +687,6 @@ footer {
     height: 430px;
     border-radius: 50%;
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
     border: 25px solid #f10323;
     padding: 3.5rem;
     float: left;
@@ -745,8 +715,6 @@ footer {
       height: 250px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #ecca19;
       padding: 2.3rem;
       float: right;
@@ -775,8 +743,6 @@ footer {
       height: 295px;
       border-radius: 50%;
       box-sizing: border-box;
-      margin-right: auto;
-      margin-left: auto;
       border: 25px solid #009b4a;
       padding: 2.5rem;
       float: left;
@@ -791,5 +757,37 @@ footer {
       display: block;
       margin-top: -230px;
       margin-left: -50px; } }
+@media screen and (min-width: 900px) {
+  .preamble p:nth-of-type(1), .preamble p:nth-of-type(2), .preamble p:nth-of-type(3) {
+    margin-right: 5em;
+    margin-left: 5em; }
+
+  .explanation p:nth-of-type(1), .explanation p:nth-of-type(2) {
+    margin-right: 5em;
+    margin-left: 5em; }
+
+  .participation p:nth-of-type(1), .participation p:nth-of-type(2), .participation p:nth-of-type(3) {
+    margin-right: 5em;
+    margin-left: 5em; }
+
+  .benefits p {
+    margin-right: 5em;
+    margin-left: 5em; }
+
+  .requirements p:nth-of-type(1), .requirements p:nth-of-type(2), .requirements p:nth-of-type(3), .requirements p:nth-of-type(4), .requirements p:nth-of-type(5) {
+    margin-right: 5em;
+    margin-left: 5em; }
+
+  .design-selection nav {
+    margin-left: 5em;
+    margin-right: 5em; }
+
+  .design-archives nav {
+    margin-left: 5em;
+    margin-right: 5em; }
+
+  .zen-resources ul {
+    margin-right: 5em;
+    margin-left: 5em; } }
 
 /*# sourceMappingURL=style.css.map */
