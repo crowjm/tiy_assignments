@@ -3,11 +3,6 @@ $green: rgb(0,155,74);
 $blue: rgb(56,164,216);
 $yellow: rgb(240,213,72);
 $red: rgb(241,3,35);
-$black-transparent: rgba(0,0,0,0.4);
-$green-transparent: rgba(0,155,74,0.4);
-$blue-transparent: rgba(56,164,216,0.4);
-$yellow-transparent: rgba(240,213,72,0.4);
-$red-transparent: rgba(241,3,35,0.4);
 $black-super-transparent: rgba(0,0,0,0.2);
 $green-super-transparent: rgba(0,155,74,0.2);
 $blue-super-transparent: rgba(56,164,216,0.2);
@@ -23,7 +18,6 @@ a {
 a:hover {
 	color: darken($blue, 20%);
 }
-
 
 
 /***main content***/
@@ -99,28 +93,6 @@ a:hover {
 		color: #333;
 	}
 }
-
-/***footer***/
-.zen-validate-html {
-	background-color: $blue-transparent;
-}
-
-.zen-validate-css {
-	background-color: $black-transparent;
-}
-
-.zen-license {
-	background-color: $red-transparent;
-}
-
-.zen-accessibility {
-	background-color: $yellow-transparent;
-}
-
-.zen-github {
-	background-color: $green-transparent;
-}
-
 
 /***sidebar***/
 .design-selection::before {

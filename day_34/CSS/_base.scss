@@ -163,17 +163,51 @@ footer {
 }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  border-radius: 50%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover {
+	color: white;
+}
+
+.zen-validate-html {
+	background-image: url(../IMG/blue-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-validate-css {
+	background-image: url(../IMG/black-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-license {
+	background-image: url(../IMG/red-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-accessibility {
+	background-image: url(../IMG/yellow-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-github {
+	background-image: url(../IMG/green-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
 }
 
 
 
 /***sidebar***/
-
 .design-selection::before, .zen-resources::before {
 	border-radius: 50%;
 	height: 75px;
