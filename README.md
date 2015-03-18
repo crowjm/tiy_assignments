@@ -2,6 +2,11 @@
 
 ##Week Eight
 * [Weekend Homework](http://crowjm.github.io/tiy_assignments/day_35/)
+* [Day Twenty-One Homework, Part One](https://github.com/crowjm/tiy_assignments/blob/master/day_36/portfolio_style_tile.psd)
+* [Day Twenty-One Homework, Part Two v1](https://github.com/crowjm/tiy_assignments/blob/master/day_36/sm_portfolio_main.psd)
+* [Day Twenty-One Homework, Part Two v2](https://github.com/crowjm/tiy_assignments/blob/master/day_36/md_portfolio_main.psd)
+* [Day Twenty-One Homework, Part Two v3](https://github.com/crowjm/tiy_assignments/blob/master/day_36/lg_portfolio_main.psd)
+
 
 ##Week Seven
 * [Weekend Homework](http://crowjm.github.io/tiy_assignments/day_29/bouldin_redesign)
