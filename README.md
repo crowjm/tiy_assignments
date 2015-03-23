@@ -1,11 +1,18 @@
 #Table of Contents
 
+##Week Nine
+* [Weekend Homework, Part One](https://github.com/crowjm/tiy_assignments/blob/master/day_39/goodreads_styletile_1.psd)
+* [Weekend Homework, Part Two](https://github.com/crowjm/tiy_assignments/blob/master/day_39/goodreads_styletile_2.psd)
+* [Weekend Homework, Part Three](https://github.com/crowjm/tiy_assignments/blob/master/day_39/goodreads_styletile_3.psd)
+
+
 ##Week Eight
 * [Weekend Homework](http://crowjm.github.io/tiy_assignments/day_35/)
-* [Day Twenty-One Homework, Part One](https://github.com/crowjm/tiy_assignments/blob/master/day_36/portfolio_style_tile.psd)
-* [Day Twenty-One Homework, Part Two v1](https://github.com/crowjm/tiy_assignments/blob/master/day_36/sm_portfolio_main.psd)
-* [Day Twenty-One Homework, Part Two v2](https://github.com/crowjm/tiy_assignments/blob/master/day_36/md_portfolio_main.psd)
-* [Day Twenty-One Homework, Part Two v3](https://github.com/crowjm/tiy_assignments/blob/master/day_36/lg_portfolio_main.psd)
+* [Day Thirty-Six Homework, Part One](https://github.com/crowjm/tiy_assignments/blob/master/day_36/portfolio_style_tile.psd)
+* [Day Thirty-Six Homework, Part Two v1](https://github.com/crowjm/tiy_assignments/blob/master/day_36/sm_portfolio_main.psd)
+* [Day Thirty-Six Homework, Part Two v2](https://github.com/crowjm/tiy_assignments/blob/master/day_36/md_portfolio_main.psd)
+* [Day Thirty-Six Homework, Part Two v3](https://github.com/crowjm/tiy_assignments/blob/master/day_36/lg_portfolio_main.psd)
+* [Day Thirty-Six Homework, Part Three](https://github.com/crowjm/tiy_assignments/blob/master/day_36/lg-portfolio-comp.psd)
 
 
 ##Week Seven
