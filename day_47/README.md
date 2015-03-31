@@ -1,8 +1,10 @@
 ##Jesse Crow
-##National Park Service Redesign Proposal
+##National Park Service/Great Smoky Mountain National Park Redesign Proposal
 
-###About the National Park Service
+###About the National Park Service and Great Smoky Mountain National Park
 Wallace Stegner referred to the National Parks as "America's Best Idea." The idea of the Park Service began in the mid 1800s, when President Lincoln signed a law preserving Yosemite Valley and Mariposa Grove. In 1872, Congress established Yellowstone National Park, and in 1916 President Wilson established the National Park Service. The National Park Service was created to protect and preserve nature for future generations, and they act as guardians of natural beauty. The [mission](http://www.nps.gov/aboutus/mission.htm) of the National Park Service is to "(preserve) unimpaired the natural and cultural resources and values of the national park system for the enjoyment, education, and inspiration of this and future generations." You can learn more about the history of the National Park Service [here](http://www.pbs.org/nationalparks/history/).
+
+Great Smoky Mountain National Park was chartered in 1934 and established in 1940. It's part of the Blue Ridge Mountains and the AT and is the most visited National Park in the country. It is part of North Carolina and Tennessee and in addition to preserving the land, it also helps preserve both Cherokee and Appalachian culture. It is an international biosphere reserve and a UNESCO World Heritage Site.
 
 ###Brand(Reputation)
 * [white and antiquated, but trying to change](http://abcnews.go.com/ABC_Univision/News/national-park-service-change-vanilla-reputation/story?id=20011584&singlePage=true)
@@ -35,6 +37,8 @@ Wallace Stegner referred to the National Parks as "America's Best Idea." The ide
 ####Threats
 * City parks that are closer and easier to get to
 * Beaches and theme parks (other popular vacation destinations)
+* Government shutdown
+* Climate change
 
 ###Problems and Solutions
 
@@ -49,6 +53,8 @@ Wallace Stegner referred to the National Parks as "America's Best Idea." The ide
 
 ###Competitors 
 The NPS' most direct competitor is the US Forest Service. However, they are both government branches that share the same mission, and the National Park Service is more well known. Because of their locations, visiting a National Park is a lengthy, vacation trip for a lot of people. They're threatened by other vacation destinations (like theme parks, beaches) and other local and semi-regional parks and landmarks that are more easily accessible.
+
+Competitors of the Smoky Mountains include other parts of the Blue Ridge Mountains and AT and Chimney Rock. They're also threatened by other vacation destinations (like theme parks, beaches).
 
 ###Wordlist
 * majestic
@@ -74,6 +80,13 @@ The NPS' most direct competitor is the US Forest Service. However, they are both
 * fundamental
 * educational
 * camping
+* mountains
+* deer
+* bears
+* snow
+* fall leaves
+* folk arts and crafts
 
 ###Game Plan
-For this project, I'd like to focus on the home page, a park page, the discovery history page, the kids page, and the about page. 
+For this project (NPS), I'd like to focus on the home page, a park page, the discovery history page, the kids page, and the about page.
+For this project (Smokies), I'd like to focus on the home page, the plan your visit page, the about page, the get involved page, and the kids page.
