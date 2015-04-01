@@ -46,10 +46,11 @@ Great Smoky Mountain National Park was chartered in 1934 and established in 1940
 * Feels exclusive and limited in terms of audience (teachers and kids)
 * Feels a bit antiquated 
 * Have to dig on website to find beauty and power of the parks
+* Isn't cohesive in terms of socials vs website
 
 ####Solutions
 * Make the website have a more modern (but still trustworthy, authoritative) feel. This will also help with making the site more appealing to millenials
-* Not something that I could actually accomplish with the scope of this project, but something that I could indicate in header/footer: creating content geared towards more groups (plan your parks roadtrip, for example) and/or viewing the website in different languages
+* Streamline the vibe of their socials with the website
 
 ###Competitors 
 The NPS' most direct competitor is the US Forest Service. However, they are both government branches that share the same mission, and the National Park Service is more well known. Because of their locations, visiting a National Park is a lengthy, vacation trip for a lot of people. They're threatened by other vacation destinations (like theme parks, beaches) and other local and semi-regional parks and landmarks that are more easily accessible.
