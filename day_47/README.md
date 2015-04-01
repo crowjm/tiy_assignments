@@ -7,7 +7,7 @@ Wallace Stegner referred to the National Parks as "America's Best Idea." The ide
 Great Smoky Mountain National Park was chartered in 1934 and established in 1940. It's part of the Blue Ridge Mountains and the AT and is the most visited National Park in the country. It is part of North Carolina and Tennessee and in addition to preserving the land, it also helps preserve both Cherokee and Appalachian culture. It is an international biosphere reserve and a UNESCO World Heritage Site.
 
 ###Brand(Reputation)
-* [white and antiquated, but trying to change](http://abcnews.go.com/ABC_Univision/News/national-park-service-change-vanilla-reputation/story?id=20011584&singlePage=true)
+* [vanilla, but trying to change](http://abcnews.go.com/ABC_Univision/News/national-park-service-change-vanilla-reputation/story?id=20011584&singlePage=true)
 * [they're announcing a new branding campaign Thursday](http://skift.com/2015/03/30/u-s-national-park-service-is-preparing-for-a-big-rebrand/)
 * [corrupt government agency](http://www.nationalparkstraveler.com/2009/06/survey-says-national-park-service-far-best-government-agency-work)
 * [parks themselves are beautiful, majestic, powerful](http://www.huffingtonpost.com/ed-felker/yellowstone-national-park_b_1908086.html?)
@@ -88,5 +88,8 @@ Competitors of the Smoky Mountains include other parts of the Blue Ridge Mountai
 * folk arts and crafts
 
 ###Game Plan
-For this project (NPS), I'd like to focus on the home page, a park page, the discovery history page, the kids page, and the about page.
-For this project (Smokies), I'd like to focus on the home page, the plan your visit page, the about page, the get involved page, and the kids page.
+For this project I'd like to focus on the main page of the NPS, and the main, plan your visit, about, and kids pages of the Smokies website.
+
+###Current Sites
+* [National Park Service](http://www.nps.gov/index.htm)
+* [Great Smoky Mountain National Park](http://www.nps.gov/grsm/index.htm)
